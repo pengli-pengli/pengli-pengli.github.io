@@ -1,6 +1,6 @@
 # Site settings
-title: Peng Li/李鹏
-SEOTitle: Peng Li
+title: Peng Li
+SEOTitle: Peng Li, Ph.D.
 header-img: img/post-bg-desk.jpg
 email: peng.william.li@hotmail.com
 description: "Ph.D. in Translation and Language Sciences"
@@ -11,7 +11,7 @@ github_repo: "https://github.com/klovien/klovien.github.io.git" # you code repos
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you're going to be!"
+sidebar-about-description: "Gesture, Second language acquisition, Phonetics & Phonology, Pragmatic-prosody interface"
 sidebar-avatar: /img/about-HJ.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
