@@ -1,6 +1,6 @@
 # Site settings
-title: Peng Li
-SEOTitle: Peng Li, Ph.D.
+title: Peng Li, Ph.D.
+SEOTitle: Peng Li
 header-img: img/post-bg-desk.jpg
 email: peng.william.li@hotmail.com
 description: "Ph.D. in Translation and Language Sciences"
@@ -85,7 +85,7 @@ gitalk:
 
 
 # Featured Tags
-featured-tags: true                     # 是否使用首页标签
+featured-tags: false                     # 是否使用首页标签
 featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
 
 
