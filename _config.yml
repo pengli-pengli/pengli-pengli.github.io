@@ -12,7 +12,7 @@ github_repo: "https://github.com/pengwli/pengwli.github.io" # you code repositor
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Gesture, Second language acquisition, Phonetics & Phonology, Pragmatic-prosody interface"
-sidebar-avatar: /img/about-HJ.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/李鹏.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
