@@ -6,7 +6,7 @@ email: peng.william.li[at]hotmail.com
 description: "Ph.D. in Translation and Language Sciences"
 keyword: "Gesture, Second language acquisition, Phonetics & Phonology, Pragmatic-prosody interface"
 url: "https://pengwli.github.io"          # your host, for absolute URL
-baseurl: "/about"      # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/pengwli/pengwli.github.io" # you code repository
 
 # Sidebar settings
