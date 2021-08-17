@@ -10,7 +10,7 @@ baseurl: "https://pengwli.github.io"      # for example, '/blog' if your blog ho
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Gesture, Second language acquisition, Phonetics & Phonology, Pragmatic-prosody interface"
+sidebar-about-description: "<small>Gesture, Second language acquisition, Phonetics & Phonology, Pragmatic-prosody interface</small>"
 sidebar-avatar: /img/李鹏.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
