@@ -19,9 +19,9 @@ sidebar-avatar: /img/李鹏.jpg      # use absolute URL, seeing it's used in bot
 
 
 # SNS settings
-RSS: true
+RSS: false
 twitter_username:     PengGuillemLi
-#google_username:     citations?user=dV6WraUAAAAJ&hl=zh-CN
+google_username:      citations?user=dV6WraUAAAAJ&hl=zh-CN
 #researchgate_username: profile/Peng-Li-98
 
 
