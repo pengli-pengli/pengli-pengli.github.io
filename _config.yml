@@ -3,7 +3,7 @@ title: 李鹏，Peng Li
 SEOTitle: Peng Li
 header-img: img/post-bg-desk.jpg
 email: peng.william.li[at]hotmail.com
-keyword: ""
+keyword: "Gesture, SLA, Phonetics & Phonology, Prosody-pragmatics, Chinese-Japanese"
 url: "https://pengwli.github.io"          # your host, for absolute URL
 baseurl: "https://pengwli.github.io"      # for example, '/blog' if your blog hosted on 'host/blog'
 #github_repo: "https://github.com/pengwli/pengwli.github.io" # you code repository
@@ -18,7 +18,7 @@ sidebar-avatar: /img/李鹏.jpg      # use absolute URL, seeing it's used in bot
 
 # SNS settings
 RSS: false
-twitter_username:     PengGuillemLi
+#twitter_username:     PengGuillemLi
 #google_username:      citations?user=dV6WraUAAAAJ&hl=zh-CN
 #researchgate_username: profile/Peng-Li-98
 
@@ -90,7 +90,3 @@ featured-condition-size: 1              # 相同标签数量大于这个数，�
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: true
-
-
-
-# 友情链接，请尽量不要删除，谢谢！
