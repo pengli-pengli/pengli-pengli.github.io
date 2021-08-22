@@ -4,9 +4,9 @@ SEOTitle: Peng Li
 header-img: img/post-bg-desk.jpg
 email: peng.william.li[at]hotmail.com
 keyword: "Gesture, SLA, Phonetics & Phonology, Prosody-pragmatics, Chinese-Japanese"
-url: "https://pengwli.github.io"          # your host, for absolute URL
-baseurl: "https://pengwli.github.io"      # for example, '/blog' if your blog hosted on 'host/blog'
-#github_repo: "https://github.com/pengwli/pengwli.github.io" # you code repository
+url: "https://pengli-pengli.github.io"          # your host, for absolute URL
+baseurl: "https://pengli-pengli.github.io"      # for example, '/blog' if your blog hosted on 'host/blog'
+#github_repo: "https://github.com/pengli-pengli/pengli-pengli.github.io" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -61,9 +61,9 @@ gitalk:
   enable: false    #是否开启Gitalk评论
   clientID: d18b343dd9c7ca49518a                            #生成的clientID
   clientSecret: 539e88b8a7feffaddbb553b9c421dfefcbc6eced    #生成的clientSecret
-  repo: pengwli.github.io    #仓库名称
-  owner: pengwli    #github用户名
-  admin: pengwli
+  repo: pengli-pengli.github.io    #仓库名称
+  owner: pengli-pengli    #github用户名
+  admin: pengli-pengli
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
