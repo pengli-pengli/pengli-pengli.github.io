@@ -1,5 +1,5 @@
 # Site settings
-title: 李鹏 (Peng Li)
+title: 李鹏/Peng Li, Ph.D.
 SEOTitle: Peng Li
 header-img: img/post-bg-desk.jpg
 email: peng.william.li[at]hotmail.com
@@ -10,8 +10,8 @@ baseurl: "https://pengli-pengli.github.io"      # for example, '/blog' if your b
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "<small><p>Grup d'Estudis de Prosòdia (GrEP)</p><p>Universitat Pompeu Fabra (UPF)</p>
-                            <p>C/Roc Boronat, 138, 08018, Barcelona</p></small>"
+sidebar-about-description: "<small><p>Center for Multilingualism in Society across the Lifespan (Multiling)</p><p>University of Oslo (UiO)</p>
+                            <p>Niels Henrik Abels vei 36, Henrik Wergeland's house, 0313, Oslo</p></small>"
 sidebar-avatar: /img/李鹏.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
