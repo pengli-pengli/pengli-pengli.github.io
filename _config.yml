@@ -3,17 +3,17 @@ title: 李鹏/Peng Li, Ph.D.
 SEOTitle: Peng Li, Ph.D.
 header-img: img/post-bg-desk.jpg
 email: peng.william.li[at]hotmail.com
-keyword: "Gesture, SLA, Phonetics & Phonology, Prosody-pragmatics, Chinese-Japanese"
+keyword: "Gesture, SLA, Phonetics & Phonology, Prosody, Bilingualism"
 url: "https://pengli-pengli.github.io"          # your host, for absolute URL
 baseurl: "https://pengli-pengli.github.io"      # for example, '/blog' if your blog hosted on 'host/blog'
 #github_repo: "https://github.com/pengli-pengli/pengli-pengli.github.io" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "<small><p>Speech and Bilingualism Group</p>
-                            <p>Basque Center on Cognition, Brain and Language (BCBL)</p>
-                            <p>Paseo Mikeletegi 69, 2, 20006</p>
-                            <p>San Sebastián, Gipuzkoa, Spain</p>
+sidebar-about-description: "<small><p>Center of Linguistics</p>
+                            <p>University of Lisbon (Portugal)</p>
+                            <p>Alameda da Universidade 1600-214</p>
+                            <p>Lisbon, Portugal</p>
                             </small>"
 sidebar-avatar: /img/李鹏.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
