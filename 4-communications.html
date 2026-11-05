@@ -5,14 +5,11 @@ description: ""
 header-img: "img/post-bg-talk.jpg"
 ---
 
-<!-- Chinese Version -->
-<div class="zh post-container">
+<div class="post-container">
 
-    <!--copied from markdown -->
-    
      <h3 id="toc_0">Invited talks</h3>
 
-<ul><font size="2",color="DimGrey">
+<ul><font size="2">
 <li><b>Li, P.</b> (2025, November). Multimodal phonetic training revisited: Comparing the effects of tactile training and visual training. <i>Language, Cognition, and Communication lab, University of Edinburgh</a></i>.(UK).</li>
 <li><b>Li, P.</b> (2025, September). How to become a successful second language learner: Learning strategies and career development. <i>School of Foreign Languages, Dezhou University</a></i>.(China).</li>
 <li><b>Li, P.</b> (2024, June). The acquisition of Spanish lexical stress and intonation by Chinese native speakers. <i>Department of Hispanic Studies, East China Normal University</a></i>. Shanghai (China).</li>
@@ -26,7 +23,7 @@ header-img: "img/post-bg-talk.jpg"
     
     <h3 id="toc_1">Oral presentations</h3>
 
-<ul><font size="2",color="DimGrey">
+<ul><font size="2">
 <li><b>Li, P.</b>, Feng, Q., & Xi, X. (2026, June). Comparing the effectiveness of audio-visual and audio-tactile training in L2 Italian stop acquisition by L1 Mandarin speakers. <i><a href="https://eurosla35.fcsh.unl.pt/program-participation/"> The 35th Conference of the European Second Language Association (EuroSLA35)</a></i>, Lisbon (Portugal).</li>
 <li><b>Li, P.</b>, Martin, C., & Xi, X. (2025, June). Mandarin speakers’ development of L2 Spanish lexical stress perception and production in a one-year study abroad program. <i><a href="https://agenda.uib.es/getFiles/hash/NmVzNmBDOjJmNyYWY1QjZmlDMlZjNlJmMMTY0ADNxYj:MFpMTGRHM2Vaa0Z3cDd3QlFXUlF0TkV5eUxPUTNSTExQWlUyZFFxMU8yd3pGVkFHM2VxSksvbWRLQmtodWdUQ05aWE5EOE44VnlhampuZ2w0UGFnNDgrZnBGdHVDN0t5WEQwTnBiMnBNelpGekxQWFRZRkl5SkhNaVlPMzc5eDNZN1BYemRvYkl4RkVQalppZ0xGRkhUeDNOeDA1VUExVDRlYUEwT2F0bU0wcWYrNE1TWEFGc2drRXlxTWdIb3lWZXRvU0lCNE43RCtpN25IRnhKanhrZm5xU3VuTTN2N3U3TThNT3lqZ1d0OD0=">The 6th Phonetics and Phonology in Europe (PaPE2025)</a></i>, Palma (Spain).</li>
 <li>Gardner, Q., Chondrogianni, V., <b>Li, P.</b>, & Branigan, H. (2025, June). Morphophonological effects on morphosyntactic processing during L2 English real-time comprehension. <i><a href="https://www.bcbl.eu/events/isb15/en/conference-program/su-233/">The 15th International Symposium on Bilingualism (ISB15)</a></i>, Donostia (Spain).</li>
@@ -64,7 +61,7 @@ header-img: "img/post-bg-talk.jpg"
     </font></ul>
     <h3 id="toc_2">Poster presentations</h3>
 
-<ul><font size="2",color="DimGrey">
+<ul><font size="2">
 <li>Yang, S.#, <b>Li, P.</b>, Martin, C., & Stoehr, A. (2026, June). The effects of auditory processing on Spanish children’s perception of English /i/-/ɪ/ contrast. <i><a href="https://eurosla35.fcsh.unl.pt/program-participation/">The 35th Conference of the European Second Language Association (EUROSLA35)</a></i>, Lisbon (Portugal). [# = student author]</li>
 <li>Cordero-Rull, M. <b>Li, P.</b>, & Martin, C. (2026, June). Talk to the hand: Investigating the multimodal nature of foreigner-directed speech and gesture. <i><a href="https://isbpac.info/">International Symposium on Bilingual and L2 Processing in Adults and Children 2026 (ISBPAC2026)</a></i>, Reading (UK).</li>
 <li>Hu, H.#, Piazza, G., Cordero-Rull, M., Kalashnikova, M., <b>Li, P.</b>, & Martin, C.(2026, May). Universal or speaker-dependent? Acoustic adjustments in foreign-directed speech. <i><a href="https://com2026.sciencesconf.org/resource/page/id/10">Conference on Multilingualism 2026 (COM2026)</a></i>, Toulouse (France). [# = student author]</li>
@@ -98,113 +95,3 @@ header-img: "img/post-bg-talk.jpg"
   </font></ul>
     
 </div>
-
-<!-- English Version -->
-<!-- <div class="en post-container">
-    <blockquote><p>Yet another iOS Developer. <br>
-    Yet another Life-long Student.</p></blockquote>
-
-    <p>Hi, I am <strong>Baiying Qiu</strong>，you can call me <strong>BY</strong>. I am an iOS software engineer and currently working in Xiamen</p>
-
-    <p>This is my personal blog, through making Github Pages and Jekyll.My GitHub  👉 <a href="http://github.com/qiubaiying">Github·BY</a>.</p>
-    
-    <p>I am a sports enthusiast, I like fitness, running and boxing.</p>
-
-    <h5>Talks</h5>
-
-    <ul>
-    <li><a href="https://github.com">GitHub</a></li>
-    <li><a href="http://jekyll.com.cn/">jekyll</a></li>
-    <li><a href="https://pages.github.com/">GitHub Pages</a></li>
-    <li><a href="https://qiubaiying.github.io">BY</a></li>
-    </ul>
-</div> -->
-
-<!-- Handle Language Change -->
-<script type="text/javascript">
-    // get nodes
-    var $zh = document.querySelector(".zh");
-    var $en = document.querySelector(".en");
-    var $select = document.querySelector("select");
-
-    // bind hashchange event
-    window.addEventListener('hashchange', _render);
-
-    // handle render
-    function _render(){
-        var _hash = window.location.hash;
-        // en
-        if(_hash == "#en"){
-            $select.selectedIndex = 1;
-            $en.style.display = "block";
-            $zh.style.display = "none";
-        // zh by default
-        }else{
-            // not trigger onChange, otherwise cause a loop call.
-            $select.selectedIndex = 0;
-            $zh.style.display = "block";
-            $en.style.display = "none";
-        }
-    }
-
-    // handle select change
-    function onLanChange(index){
-        if(index == 0){
-            window.location.hash = "#zh"
-        }else{
-            window.location.hash = "#en"
-        }
-    }
-
-    // init
-    _render();
-</script>
-
-
-<!-- Gitalk 评论 start  -->
-{% if site.gitalk.enable %}
-<!-- Gitalk link  -->
-<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
-
-<div id="gitalk-container"></div>
-    <script type="text/javascript">
-    var gitalk = new Gitalk({
-    clientID: '{{site.gitalk.clientID}}',
-    clientSecret: '{{site.gitalk.clientSecret}}',
-    repo: '{{site.gitalk.repo}}',
-    owner: '{{site.gitalk.owner}}',
-    admin: ['{{site.gitalk.admin}}'],
-    distractionFreeMode: {{site.gitalk.distractionFreeMode}},
-    id: 'about',
-    });
-    gitalk.render('gitalk-container');
-</script>
-{% endif %}
-<!-- Gitalk end -->
-
- <!-- disqus 评论框 start  -->
-{% if site.disqus.enable %}
-
-<div class="comment">
-    <div id="disqus_thread" class="disqus-thread">
-    </div>
-</div>
-<!-- disqus 评论框 end -->
-
-<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = "{{site.disqus.username}}";
-    var disqus_identifier = "{{site.disqus.username}}/{{page.url}}";
-    var disqus_url = "{{site.url}}{{page.url}}";
-
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<!-- disqus 公共JS代码 end -->
-{% endif %}
-

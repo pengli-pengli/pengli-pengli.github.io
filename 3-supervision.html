@@ -5,16 +5,14 @@ description: ""
 header-img: "img/post-bg-coffee.jpg"
 ---
 
-<!-- Chinese Version -->
-<div class="zh post-container">
+<div class="post-container">
 
     <style>
-        ul.no {list-style-type: none;}
         ul.disc{list-style-type: disc;}
     </style>
 
 <h3 id="toc_0">Supervision of PhD theses</h3>
-<ul class="disc"><font size="2",color="DimGrey">
+<ul class="disc"><font size="2">
     <p><li>Huiyi. Hu. (expected 2029). “Foreign Directed Speech: Didactic function and impac”. <b>PhD dissertation</b> at University of the Basque Country. Co-supervised with Prof. Clara Martin </li></p>
     <p><li>Robert Cavaluzzi. (expected 2028). “Orthographic effects in third language acquisition”. <b>PhD dissertation</b> at University of the Basque Country. Co-supervised with A. Stoehr. [<i>Discontinued</i>]</li></p>
     <p><li>Silvia Yang. (expected 2026). “Auditory acuity influence in speech sound production learning”. <b>PhD dissertation</b> at University of the Basque Country. Co-supervised with Dr. Antje Stoehr </li></p>
@@ -22,7 +20,7 @@ header-img: "img/post-bg-coffee.jpg"
 </ul>
 
 <h3 id="toc_0">Supervision at Masters level</h3>
-<ul class="disc"><font size="2",color="DimGrey">
+<ul class="disc"><font size="2">
     <p><li>Alexandra Drogata (2026). “Auditory processing and high variability phonetic training”. <b>Msc. thesis </b> at University of Trento, Italy. Co-supervised with Dr. Antje Stoher</li></p>
     <p><li>Aliona Yarovich. (2025). “Improving comprehensibility and accentedness in spontaneous speech: The role of L2 use in a study abroad program”. <b>Msc. thesis </b> at University of the Basque Country, Spain. Co-supervised with Prof. Clara Martin</li></p>
     <p><li>Lu Xing. (2024). “The effect of phonetic production training with different types of visual feedback on the learning of L2 vowels”. <b>MA thesis in Multilingualism </b> at University of Oslo, Norway. Co-supervised with Prof. Natalia Kartushina</li></p>
@@ -34,7 +32,7 @@ header-img: "img/post-bg-coffee.jpg"
 </ul>
     
 <h3 id="toc_0">Supervision at undergraduate level</h3>
-<ul class="disc"><font size="2",color="DimGrey">
+<ul class="disc"><font size="2">
     <p><li>Rui Ren. (2017). “Contact with Japanese language through soap operas among students at Hefei University/<font color="silver">合肥学院の大学生がドラマを通して日本語との接触</font>”. BA thesis at Hefei University</li></p>
     <p><li>Hua Tian. (2017). “The protection of Huizhou architecture: Hints from Kyoto/<font color="silver">京都の伝統建築の保護が徽州建築の保護への示唆</font>”. BA thesis at Hefei University</li></p>
     <p><li>Qianqian Huang. (2017). “The promotion of Anhui Cuisine overseas: Hints from the reception of Japanese restaurants in Hefei/<font color="silver">日本料理店の受容が安徽料理の海外プロモーションにもたらしたヒント</font>”. BA thesis at Hefei University</li></p>
@@ -53,108 +51,3 @@ header-img: "img/post-bg-coffee.jpg"
 </ul>
     
 </div>
-
-<!-- English Version -->
-<!-- <div class="en post-container">
-    <blockquote><p>Yet another iOS Developer. <br>
-    Yet another Life-long Student.</p></blockquote>
-    <p>Hi, I am <strong>Baiying Qiu</strong>，you can call me <strong>BY</strong>. I am an iOS software engineer and currently working in Xiamen</p>
-    <p>This is my personal blog, through making Github Pages and Jekyll.My GitHub  👉 <a href="http://github.com/qiubaiying">Github·BY</a>.</p>
-    
-    <p>I am a sports enthusiast, I like fitness, running and boxing.</p>
-    <h5>Talks</h5>
-    <ul>
-    <li><a href="https://github.com">GitHub</a></li>
-    <li><a href="http://jekyll.com.cn/">jekyll</a></li>
-    <li><a href="https://pages.github.com/">GitHub Pages</a></li>
-    <li><a href="https://qiubaiying.github.io">BY</a></li>
-    </ul>
-</div> -->
-
-<!-- Handle Language Change -->
-<script type="text/javascript">
-    // get nodes
-    var $zh = document.querySelector(".zh");
-    var $en = document.querySelector(".en");
-    var $select = document.querySelector("select");
-
-    // bind hashchange event
-    window.addEventListener('hashchange', _render);
-
-    // handle render
-    function _render(){
-        var _hash = window.location.hash;
-        // en
-        if(_hash == "#en"){
-            $select.selectedIndex = 1;
-            $en.style.display = "block";
-            $zh.style.display = "none";
-        // zh by default
-        }else{
-            // not trigger onChange, otherwise cause a loop call.
-            $select.selectedIndex = 0;
-            $zh.style.display = "block";
-            $en.style.display = "none";
-        }
-    }
-
-    // handle select change
-    function onLanChange(index){
-        if(index == 0){
-            window.location.hash = "#zh"
-        }else{
-            window.location.hash = "#en"
-        }
-    }
-
-    // init
-    _render();
-</script>
-
-
-<!-- Gitalk 评论 start  -->
-{% if site.gitalk.enable %}
-<!-- Gitalk link  -->
-<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
-
-<div id="gitalk-container"></div>
-    <script type="text/javascript">
-    var gitalk = new Gitalk({
-    clientID: '{{site.gitalk.clientID}}',
-    clientSecret: '{{site.gitalk.clientSecret}}',
-    repo: '{{site.gitalk.repo}}',
-    owner: '{{site.gitalk.owner}}',
-    admin: ['{{site.gitalk.admin}}'],
-    distractionFreeMode: {{site.gitalk.distractionFreeMode}},
-    id: 'resources',
-    });
-    gitalk.render('gitalk-container');
-</script>
-{% endif %}
-<!-- Gitalk end -->
-
- <!-- disqus 评论框 start  -->
-{% if site.disqus.enable %}
-
-<div class="comment">
-    <div id="disqus_thread" class="disqus-thread">
-    </div>
-</div>
-<!-- disqus 评论框 end -->
-
-<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = "{{site.disqus.username}}";
-    var disqus_identifier = "{{site.disqus.username}}/{{page.url}}";
-    var disqus_url = "{{site.url}}{{page.url}}";
-
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<!-- disqus 公共JS代码 end -->
-{% endif %}
