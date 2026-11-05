@@ -1,25 +1,40 @@
-# UPDATES (the homepage shows the three newest, sorted by date)
+# UPDATES (the homepage shows the three newest as picture cards, sorted by date)
 # To add one, paste a block anywhere in this list. Older updates can stay; they are simply not shown.
 #
-# Fields: date (YYYY-MM-DD), type (a short label: Talk, Paper, Position, Grant, Workshop...), text, link (optional)
+# Fields:
+#   date: YYYY-MM-DD
+#   type: a short label shown on the picture (Talk, Paper, Position, Grant, Workshop...)
+#   title: short, shown on the picture (about 8 words or fewer reads best)
+#   link: where the title leads (optional)
+#   image: a photo in media/images/updates/, written as /media/images/updates/name.jpg
+#          (landscape photos work best; without one, a plain colored card is shown)
+#   description: one or two sentences shown under the picture
 #
 # Example:
 #   - date: 2026-06-24
 #     type: Talk
-#     text: "Presenting audio-visual vs. audio-tactile training of Italian stops at EuroSLA35"
+#     title: Talk at EuroSLA35
 #     link: https://eurosla35.fcsh.unl.pt/program-participation/
+#     image: /media/images/updates/eurosla35.jpg
+#     description: "Comparing audio-visual and audio-tactile training of Italian stops."
 #
 # Put text in "double quotes" when it contains a colon followed by a space, or starts with a symbol.
 
 - date: 2026-11-01
   type: Workshop
-  text: "AmpleFDS: a workshop on foreigner-directed speech at PaPE 2027"
+  title: AmpleFDS workshop at PaPE 2027
+  image: /media/images/post-bg-gesture1.jpg
+  description: "A workshop on foreigner-directed speech: acoustic, phonetic, and multimodal perspectives."
 
 - date: 2026-04-15
   type: Paper
-  text: "New paper in Second Language Research: auditory acuity and L2 input jointly shift Mandarin speakers’ cue-weighting for Spanish lexical stress after study abroad"
+  title: New paper in Second Language Research
   link: https://doi.org/10.1177/02676583261441156
+  image: /media/images/post-bg-rwd.jpg
+  description: Auditory acuity and L2 input jointly shift Mandarin speakers’ cue-weighting for Spanish lexical stress after study abroad.
 
 - date: 2025-11-25
   type: Talk
-  text: "Invited talk at the Language, Cognition, and Communication lab, University of Edinburgh: comparing tactile and visual phonetic training"
+  title: Invited talk at the University of Edinburgh
+  image: /media/images/post-bg-talk.jpg
+  description: Comparing tactile and visual phonetic training, at the Language, Cognition, and Communication lab.

@@ -209,20 +209,34 @@ footer .copyright { font-size: 14px; color: var(--muted); }
 .post-container a.cv-button svg { width: 16px; height: 16px; fill: currentColor; }
 .post-container a.cv-button:hover, .post-container a.cv-button:focus { background: var(--accent-dark); color: #fff; }
 
-/* updates (homepage) */
-.post-container ul.updates { list-style: none; padding: 0; margin: 0; }
-.post-container ul.updates li {
-  display: grid; grid-template-columns: 5.5em 6.5em 1fr; gap: 0.2em 0.8em; align-items: baseline;
-  padding: 0.65em 0; border-bottom: 1px solid var(--rule);
+/* updates (homepage): picture cards */
+.updates { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; margin: 0.2em 0 0.6em; }
+.update { min-width: 0; }
+.update .pic {
+  position: relative; aspect-ratio: 4 / 3; max-width: 100%; overflow: hidden; border-radius: 4px;
+  background: var(--accent);
 }
-.post-container ul.updates li:first-child { padding-top: 0.2em; }
-.updates .when { color: var(--muted); font-size: 15px; font-variant-numeric: tabular-nums; }
-.updates .kind {
-  justify-self: start; font-size: 13.5px; font-weight: 600; line-height: 1.5;
-  padding: 0 0.55em; border-radius: 3px; background: var(--accent-tint); color: var(--accent);
+.post-container .update .pic img { position: absolute; inset: 0; width: 100%; height: 100%; max-width: none; margin: 0; object-fit: cover; }
+.update .pic::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: linear-gradient(to top, rgba(10, 25, 25, 0.82) 0%, rgba(10, 25, 25, 0.35) 45%, rgba(10, 25, 25, 0) 70%);
 }
-.updates .what { min-width: 0; }
-@media (max-width: 600px) {
-  .post-container ul.updates li { grid-template-columns: auto 1fr; }
-  .updates .what { grid-column: 1 / -1; }
+.update .kind {
+  position: absolute; top: 10px; left: 10px; z-index: 2;
+  font-size: 12.5px; font-weight: 600; line-height: 1.6; padding: 0 0.6em; border-radius: 3px;
+  background: #fff; color: var(--accent);
+}
+.post-container .update h4.title {
+  position: absolute; left: 12px; right: 12px; bottom: 10px; z-index: 2; margin: 0;
+  font-size: 17px; font-weight: 600; line-height: 1.3; color: #fff; text-wrap: balance;
+}
+.post-container .update h4.title a { color: #fff; text-decoration: none; }
+.post-container .update h4.title a::before { content: ""; position: absolute; inset: -400px -12px -10px; }
+.post-container .update h4.title a:hover, .post-container .update h4.title a:focus { text-decoration: underline; text-underline-offset: 3px; }
+.update:has(a:focus-visible) .pic { outline: 2px solid var(--accent); outline-offset: 2px; }
+.update .when { margin: 0.6em 0 0.15em; font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.post-container .update .desc { margin: 0; font-size: 15.5px; line-height: 1.5; }
+@media (max-width: 767px) {
+  .updates { grid-template-columns: minmax(0, 1fr); gap: 26px; }
+  .update .pic { aspect-ratio: 16 / 9; }
 }
