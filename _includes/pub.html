@@ -1,0 +1,9 @@
+{%- assign e = include.e -%}
+<li>{% include authors.html a=e.authors %} ({{ e.year }}). {% include title.html t=e.title %}
+{%- if e.journal %} <i>{{ e.journal }}{% if e.volume %}, {{ e.volume }}{% endif %}</i>{% if e.issue %}({{ e.issue }}){% endif %}{% if e.pages %}: {{ e.pages }}{% endif %}.
+{%- else %} In {% if e.editors %}{{ e.editors }} {% endif %}<i>{{ e.book }}</i>{% if e.details %}{% assign first = e.details | slice: 0 %}{% if first == "(" %} {% else %}. {% endif %}{{ e.details }}{% endif %}.
+{%- endif %}
+{%- if e.doi %} <a class="tag" href="{% if e.doi_link %}{{ e.doi_link }}{% else %}https://doi.org/{{ e.doi }}{% endif %}"><span class="k">DOI</span>{{ e.doi }}</a>{% endif %}
+{%- if e.isbn %} <a class="tag" href="{{ e.isbn_link }}"><span class="k">ISBN</span>{{ e.isbn }}</a>{% endif %}
+{%- if e.pdf %} <a class="tag" href="{{ e.pdf }}"><span class="k">PDF</span>{% if e.pdf_label %}{{ e.pdf_label }}{% else %}Full paper{% endif %}</a>{% endif %}
+{%- include award.html e=e %}</li>

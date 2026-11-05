@@ -90,20 +90,22 @@
                     </li>
                     {% endif %}
                 </ul>
-                <p class="copyright text-muted">
-                    Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
-                    <br>
-                    Theme on <a href="{{ site.github_repo }}">GitHub</a> |
-                    <iframe
-                        style="margin-left: 2px; margin-bottom:-5px;"
-                        frameborder="0" scrolling="0" width="100px" height="20px"
-                        src="https://ghbtns.com/github-btn.html?user={{ site.github_username }}&repo={{ site.github_username }}.github.io&type=star&count=true" >
-                    </iframe>
-                </p>
+                <p class="copyright text-muted">Copyright &copy; Peng Li {{ site.time | date: "%Y" }}</p>
             </div>
         </div>
     </div>
 </footer>
+
+<!-- Email link: address assembled on click to keep it from spam bots -->
+<script>
+document.addEventListener("click", function (e) {
+    var a = e.target.closest && e.target.closest(".js-mail");
+    if (!a) return;
+    e.preventDefault();
+    var r = function (s) { return s.split("").reverse().join(""); };
+    window.location.href = "mailto:" + r(a.dataset.u) + "@" + r(a.dataset.d);
+});
+</script>
 
 <!-- jQuery -->
 <script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>

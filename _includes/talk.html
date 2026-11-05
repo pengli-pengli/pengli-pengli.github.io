@@ -1,0 +1,4 @@
+{%- assign e = include.e -%}
+<li>{% include authors.html a=e.authors %} ({{ e.year }}{% if e.month %}, {{ e.month }}{% endif %}). {% include title.html t=e.title %} <i>{% if e.event_link %}<a href="{{ e.event_link }}">{{ e.event }}</a>{% else %}{{ e.event }}{% endif %}</i>
+{%- if e.place %}{% assign first = e.place | slice: 0 %}{% if first == "(" %} {% else %}, {% endif %}{{ e.place }}{% endif %}.
+{%- include award.html e=e %}</li>

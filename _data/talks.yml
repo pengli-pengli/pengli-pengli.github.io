@@ -1,0 +1,584 @@
+# CONFERENCE PRESENTATIONS AND INVITED TALKS
+# Sections: invited, oral, posters. Newest first.
+# To add an item, copy an entry, paste it at the top of its section, and edit it.
+# Your name is bolded automatically. Titles get a final period automatically.
+#
+# Fields: authors, year, month, title, event, event_link (optional), place
+# Optional: award + award_link, student: true (adds "# = student author" to the section note)
+#
+# Example:
+#   - authors: Li, P., Feng, Q., & Xi, X.
+#     year: 2026
+#     month: June
+#     title: Comparing the effectiveness of audio-visual and audio-tactile training in L2 Italian stop acquisition by L1 Mandarin speakers
+#     event: The 35th Conference of the European Second Language Association (EuroSLA35)
+#     event_link: https://eurosla35.fcsh.unl.pt/program-participation/
+#     place: Lisbon (Portugal)
+#
+# Put text in "double quotes" when it contains a colon followed by a space, or starts with a symbol.
+
+invited:
+
+  - authors: Li, P.
+    year: 2025
+    month: November
+    title: "Multimodal phonetic training revisited: Comparing the effects of tactile training and visual training"
+    event: Language, Cognition, and Communication lab, University of Edinburgh
+    place: (UK)
+
+  - authors: Li, P.
+    year: 2025
+    month: September
+    title: "How to become a successful second language learner: Learning strategies and career development"
+    event: School of Foreign Languages, Dezhou University
+    place: (China)
+
+  - authors: Li, P.
+    year: 2024
+    month: June
+    title: The acquisition of Spanish lexical stress and intonation by Chinese native speakers
+    event: Department of Hispanic Studies, East China Normal University
+    place: Shanghai (China)
+
+  - authors: Li, P.
+    year: 2023
+    month: October
+    title: L2 phonology on Norwegians learning Chinese
+    event: MultiLing Closing Conference 2023
+    event_link: https://www.hf.uio.no/multiling/english/news-and-events/events/conferences/2022/program-wian-%2813.10%29.pdf
+    place: Oslo (Norway)
+
+  - authors: Li, P.
+    year: 2022
+    month: October
+    title: "Pedagogical terms in L2 classrooms: The issue of directly importing Japanese grammatical terms into Chinese"
+    event: "“What’s in a name?” Labelling concepts and languages 2.0: Expanding the scenery"
+    event_link: https://www.hf.uio.no/multiling/english/news-and-events/events/conferences/2022/program-wian-%2813.10%29.pdf
+    place: Oslo (Norway)
+
+  - authors: Li, P.
+    year: 2021
+    month: July
+    title: Role of hand gestures in L2 segmental learning
+    event: Kita’s Lab, University of Warwick
+    place: On-line
+
+  - authors: Li, P., Baills, F., Baqué, L., & Prieto, P.
+    year: 2020
+    month: December
+    title: The effects of visuospatial hand gestures on the L2 learning of French suprasegmental features and front rounded vowels
+    event: Nijmegen-Barcelona L2 Seminar
+    event_link: https://www.upf.edu/web/traduccio/noticies/-/asset_publisher/me4XTRRxMt0H/content/id/240614101/maximized#.YRrspogzZnI
+    place: Online
+
+  - authors: Li, P.
+    year: 2020
+    month: January
+    title: "Multimodal training of L2 pronunciation: The role of visuospatial hand gestures"
+    event: Workshop d’UR-Ling 2020
+    event_link: https://parles.upf.edu/llocs/wsurling/programa2020
+    place: Universitat Pompeu Fabra, Barcelona (Spain)
+
+oral:
+
+  - authors: Li, P., Feng, Q., & Xi, X.
+    year: 2026
+    month: June
+    title: Comparing the effectiveness of audio-visual and audio-tactile training in L2 Italian stop acquisition by L1 Mandarin speakers
+    event: The 35th Conference of the European Second Language Association (EuroSLA35)
+    event_link: https://eurosla35.fcsh.unl.pt/program-participation/
+    place: Lisbon (Portugal)
+
+  - authors: Li, P., Martin, C., & Xi, X.
+    year: 2025
+    month: June
+    title: Mandarin speakers’ development of L2 Spanish lexical stress perception and production in a one-year study abroad program
+    event: The 6th Phonetics and Phonology in Europe (PaPE2025)
+    event_link: https://agenda.uib.es/getFiles/hash/NmVzNmBDOjJmNyYWY1QjZmlDMlZjNlJmMMTY0ADNxYj:MFpMTGRHM2Vaa0Z3cDd3QlFXUlF0TkV5eUxPUTNSTExQWlUyZFFxMU8yd3pGVkFHM2VxSksvbWRLQmtodWdUQ05aWE5EOE44VnlhampuZ2w0UGFnNDgrZnBGdHVDN0t5WEQwTnBiMnBNelpGekxQWFRZRkl5SkhNaVlPMzc5eDNZN1BYemRvYkl4RkVQalppZ0xGRkhUeDNOeDA1VUExVDRlYUEwT2F0bU0wcWYrNE1TWEFGc2drRXlxTWdIb3lWZXRvU0lCNE43RCtpN25IRnhKanhrZm5xU3VuTTN2N3U3TThNT3lqZ1d0OD0=
+    place: Palma (Spain)
+
+  - authors: Gardner, Q., Chondrogianni, V., Li, P., & Branigan, H.
+    year: 2025
+    month: June
+    title: Morphophonological effects on morphosyntactic processing during L2 English real-time comprehension
+    event: The 15th International Symposium on Bilingualism (ISB15)
+    event_link: https://www.bcbl.eu/events/isb15/en/conference-program/su-233/
+    place: Donostia (Spain)
+
+  - authors: Yang, S.#, Li, P., Martin, C., & Stoehr, A.
+    student: true
+    year: 2025
+    month: April
+    title: "The role of domain-general auditory ability in foreign language learning: Training L1-Spanish speakers in the perception and production of lexical tones in a multi-session study"
+    event: The 10th International Symposium on the Acquisition of Second Language Speech (New Sounds 2025)
+    event_link: https://newsounds2025.artsci.utoronto.ca/
+    place: Toronto (Canada)
+
+  - authors: Xi, X. & Li, P.
+    year: 2024
+    month: August
+    title: "Exploring the influence of study abroad on L2 perception of segmental and prosodic contrasts: A focus on Chinese learners studying in Spain"
+    event: The 21st International Association of Applied Linguistics World Congress (AILA2024)
+    event_link: https://aila2024.com/programme/
+    place: Kuala Lumpur (Malaysia)
+
+  - authors: Li, P., & Xi, X.
+    year: 2024
+    month: July
+    title: The perception of Spanish lexical stress by proficient Mandarin learners of Spanish
+    event: The 12th International Conference on Speech Prosody (SP2024)
+    event_link: https://www.universiteitleiden.nl/sp2024/program
+    place: Leiden (the Netherlands)
+
+  - authors: Xi, X., Zhou, S., & Li, P.
+    year: 2024
+    month: July
+    title: Duration as a prosodic marker of contextual factors in Mandarin positive polar questions
+    event: The 12th International Conference on Speech Prosody (SP2024)
+    event_link: https://www.universiteitleiden.nl/sp2024/program
+    place: Leiden (the Netherlands)
+
+  - authors: Xi, X. & Li, P.
+    year: 2023
+    month: November
+    title: "Spanish imperatives produced by proficient Chinese learners of Spanish: The differences in prenuclear pitch accent and boundary tones"
+    event: The 2nd International Conference on Tone and Intonation (TAI2023)
+    event_link: https://www.asianlp.sg/conferences/tai2023/isbn/TAI2023-Book-ISBN.pdf#page=43.06
+    place: Singapore
+
+  - authors: Xi, X. & Li, P.
+    year: 2023
+    month: October
+    title: The effects of study abroad on the perception of L2 Spanish stops and lexical stress by L1 Chinese learners
+    event: The 10th International Conference on Second Language Acquisition Research in China
+    event_link: https://www.flc.sdu.edu.cn/info/1150/19197.htm
+    place: Jinan (China)
+
+  - authors: Li, P., Flege, J., Martin, C., & Kartushina, N.
+    year: 2023
+    month: September
+    title: A longitudinal perception study on the establishment of L2 categories
+    event: The 14th annual Pronunciation in Second Language Learning and Teaching (PSLLT2023)
+    event_link: https://web.cvent.com/event/e0861a1b-556f-4a6c-8e1a-3f11196b6380/websitePage:cd987b59-fa59-403b-ae32-e32f0c01ef70
+    place: West Lafayette (USA)
+
+  - authors: Li, P., Martin, C., & Kartushina, N.
+    year: 2023
+    month: September
+    title: Language dominance and code-switching shape vowel production in Basque-Spanish bilinguals
+    event: Architectures and Mechanisms for Language Processing (AMLaP29)
+    event_link: https://www.bcbl.eu/events/amlap/en/conference-program/su-107/
+    place: San Sebastián (Spain)
+
+  - authors: Li, P., Flege, J., Martin, C., & Kartushina, N.
+    year: 2023
+    month: August
+    title: "Speech sound stability over time: Evidence from Norwegian vowels in spontaneous speech production"
+    event: The 20th International Congress of Phonetic Sciences (ICPhS2023)
+    event_link: https://icphs2023.gcon.me/programme
+    place: Prague (Czechia)
+
+  - authors: Li, P. & Xi, X.
+    year: 2023
+    month: August
+    title: "Nuclear contours of Spanish echo questions produced by proficient Chinese learners of Spanish: A dynamic analysis"
+    event: The 20th International Congress of Phonetic Sciences (ICPhS2023)
+    event_link: https://icphs2023.gcon.me/programme
+    place: Prague (Czechia)
+    award: Gösta Bruce Scholarship by Gösta Bruce Memorial Fund through IPA
+    award_link: https://www.internationalphoneticassociation.org/news/202305/student-and-other-eligible-members-receiving-ipa-student-awards-travel-bursaries-and
+
+  - authors: Xi, X., Li, P., & Prieto, P.
+    year: 2023
+    month: August
+    title: Does visuospatial working memory predict L2 audiovisual perceptual learning from phonetic training with hand gestures?
+    event: The 20th International Congress of Phonetic Sciences (ICPhS2023)
+    event_link: https://icphs2023.gcon.me/programme
+    place: Prague (Czechia)
+
+  - authors: Xi, X., Li, P., & Prieto, P.
+    year: 2023
+    month: March
+    title: Training Catalan speakers English /æ/-/ʌ/ and /i/-/ɪ/ with hand gestures
+    event: The 2023 Conference of the American Association for Applied Linguistics (AAAL2023)
+    event_link: https://www.xcdsystem.com/aaal/program/T3QFbEa/index.cfm
+    place: Portland (USA)
+
+  - authors: Xi, X. & Li, P.
+    year: 2022
+    month: November
+    title: Spanish stops and their allophones produced by proficient Mandarin learners of Spanish
+    event: The 25th Conference of the Oriental COCOSDA (O-COCOSDA2022)
+    event_link: https://vlsp.org.vn/cocosda2022/program-schedule
+    place: On-line event
+
+  - authors: Xi, X., Li, P., & Prieto, P.
+    year: 2022
+    month: July
+    title: "Hand gestures encoding articulatory feature and the learning of L2 vowels: the effects of visual accessibility"
+    event: The 9th Conference of the International Society for Gesture Studies (ISGS9)
+    event_link: https://d0a2fcb0-a63d-40ac-b517-a60ab10f6709.filesusr.com/ugd/02868e_6b95ba1801b84195a4a5df70b6a49bc7.pdf#page=38
+    place: Chicago (USA)
+
+  - authors: Xi, X., Li, P. & Prieto, P.
+    year: 2022
+    month: May
+    title: Hand gestures cueing visible mouth aperture help the pronunciation of novel L2 English vowel pair
+    event: "The 7th International Conference on English Pronunciation: Issues and Practices (EPIP7)"
+    event_link: https://epip7.sciencesconf.org/data/pages/EPIP7_Abstracts_Booklet_May13.pdf#page=45
+    place: Grenoble (France)
+
+  - authors: Li, P. & Ye, C.
+    year: 2022
+    month: April
+    title: "Bilingual (dis)advantages interact with foreign language proficiency: Evidence from Japanese plosives produced by Shanghainese-Mandarin and Mandarin speakers"
+    event: International Symposium on Monolingual and Bilingual Speech (ISMBS)
+    event_link: https://speechandlanguage.louisiana.edu/sites/speechandlanguage/files/ISMBS%202022%20Program%20%26%20Book%20of%20Abstracts.pdf#page=58
+    place: Lafayette (USA)
+
+  - authors: Xi, X., Li, P. & Prieto, P.
+    year: 2022
+    month: April
+    title: "Training English vowels with hand gestures: the effects of encoding articulatory movements to different degrees of visual accessibility"
+    event: New Sounds 2022
+    event_link: https://drive.google.com/file/d/1BxjWbITY-Z_TyV_IG5HPLfEhws2AtEOW/view
+    place: Barcelona (Spain)
+
+  - authors: Li, P. & Xi, X.
+    year: 2021
+    month: October
+    title: The realization of Spanish lexical stress and vowel quality by high-proficiency Mandarin learners of Spanish
+    event: The 3rd International Conference on Language Education and Research
+    event_link: https://www.lerconference.org/
+    place: On-line event
+
+  - authors: Xi, X. & Li, P.
+    year: 2021
+    month: October
+    title: Production of Spanish stops and approximants by Mandarin learners of Spanish
+    event: The 3rd International Conference on Language Education and Research
+    event_link: https://www.lerconference.org/
+    place: On-line event
+
+  - authors: Li, P., Xi, X., Baills, F. & Prieto, P.
+    year: 2021
+    month: July
+    title: Actively producing hand gestures mimicking articulatory features favors the acquisition of novel words containing those features
+    event: The 30th Conference of the European Second Language Association (EuroSLA 30)
+    event_link: https://www.ub.edu/eurosla2021/
+    place: Barcelona (Spain)
+
+  - authors: Xi, X., Li, P., Baills, F. & Prieto, P.
+    year: 2021
+    month: July
+    title: Hand gestures facilitate the acquisition of novel phonemic contrasts when adequately encoding target articulatory features
+    event: The 30th Conference of the European Second Language Association (EuroSLA 30)
+    event_link: https://www.ub.edu/eurosla2021/
+    place: Barcelona (Spain)
+
+  - authors: Li, P., Xi, X., Baills, F., & Prieto, P.
+    year: 2020
+    month: September
+    title: Appropriately performing hand gestures cueing phonetic features facilitates simultaneous speech imitation in an L2
+    event: The 7th Gesture and Speech in Interaction Conference (GESPIN2020)
+    event_link: https://sprakbanken.speech.kth.se/events/gespin/
+    place: Stockholm (Sweden)
+
+  - authors: Xi, X., Li, P., Baills, F., & Prieto, P.
+    year: 2020
+    month: September
+    title: "Training the pronunciation of L2 novel phonetic features: a comparison of observing versus producing hand gestures"
+    event: The 7th Gesture and Speech in Interaction Conference (GESPIN2020)
+    event_link: https://sprakbanken.speech.kth.se/events/gespin/
+    place: Stockholm (Sweden)
+
+  - authors: Li, P., Baills, F., & Prieto, P.
+    year: 2019
+    month: June
+    title: Durational hand gestures facilitate the learning of L2 vowel length contrasts
+    event: The 3rd Phonetics and Phonology in Europe Conference (PaPE 2019)
+    event_link: https://conference.unisalento.it/ocs/public/conferences/27/fmgr_upload/documents/PAPE2019_Booklet_of_abstracts.pdf#page=154
+    place: Lecce (Italy)
+    award: Best talk award by LabPhon
+    award_link: https://labphon.org/content/best-student-awards-pape-2019
+
+  - authors: Li, P., Baills, F., & Prieto, P.
+    year: 2019
+    month: September
+    title: Does the use of visuospatial hand gestures facilitate the learning of L2 vowel length contrasts?
+    event: The 28th Conference of the European Second Language Association (EuroSLA 28)
+    event_link: https://www.uni-muenster.de/imperia/md/content/eurosla/eurosla28_programme_online_version_2018-08-30.pdf
+    place: Münster (Germany)
+
+  - authors: Li, P., Baills, F., & Prieto, P.
+    year: 2019
+    month: September
+    title: Que l’ús de gestos facilita l’aprenentatge de la durada vocàlica en una segona llengua?
+    event: Xè Workshop sobre la Prosòdia del Català
+    place: Barcelona (Spain)
+
+  - authors: Li, P., & Liu, M.
+    year: 2015
+    month: May
+    title: "On the Japanese loanwords in Zhou Zuoren’s essays: A corpus-based study"
+    event: International Symposium on Corpus Linguistics 2015
+    place: Tianjin (China)
+
+  - authors: Li, Y., & Li, P.
+    year: 2013
+    month: March
+    title: 周作人の文章にみられる新漢語 [“New Kango” in Zhou Zuoren’s essays]
+    event: International Symposium on Modern East Asian Language Contact
+    place: Seoul (Korea)
+
+  - authors: Li, P.
+    year: 2011
+    month: August
+    title: "借用語から見る日本語の摂取力 [Absorption capacity of Japanese: A study on loanwords in Japanese]"
+    event: The 10th International Conference on Japanese Language Education (ICJLE)
+    place: Tianjin (China)
+
+posters:
+
+  - authors: Yang, S.#, Li, P., Martin, C., & Stoehr, A.
+    student: true
+    year: 2026
+    month: June
+    title: The effects of auditory processing on Spanish children’s perception of English /i/-/ɪ/ contrast
+    event: The 35th Conference of the European Second Language Association (EUROSLA35)
+    event_link: https://eurosla35.fcsh.unl.pt/program-participation/
+    place: Lisbon (Portugal)
+
+  - authors: Cordero-Rull, M., Li, P., & Martin, C.
+    year: 2026
+    month: June
+    title: "Talk to the hand: Investigating the multimodal nature of foreigner-directed speech and gesture"
+    event: International Symposium on Bilingual and L2 Processing in Adults and Children 2026 (ISBPAC2026)
+    event_link: https://isbpac.info/
+    place: Reading (UK)
+
+  - authors: Hu, H.#, Piazza, G., Cordero-Rull, M., Kalashnikova, M., Li, P., & Martin, C.
+    student: true
+    year: 2026
+    month: May
+    title: Universal or speaker-dependent? Acoustic adjustments in foreign-directed speech
+    event: Conference on Multilingualism 2026 (COM2026)
+    event_link: https://com2026.sciencesconf.org/resource/page/id/10
+    place: Toulouse (France)
+
+  - authors: Yang, S.#, Li, P., Martin, C., & Stoehr, A.
+    student: true
+    year: 2026
+    month: May
+    title: Auditory processing modulation of L2 vowel perception and production in preadolescents
+    event: Conference on Multilingualism 2026 (COM2026)
+    event_link: https://com2026.sciencesconf.org/resource/page/id/10
+    place: Toulouse (France)
+
+  - authors: Drogata, A.#, Li, P., & Stoehr, A.
+    student: true
+    year: 2026
+    month: May
+    title: Auditory processing abilities and the effects of phonetic training in L2 English stops
+    event: Conference on Multilingualism 2026 (COM2026)
+    event_link: https://com2026.sciencesconf.org/resource/page/id/10
+    place: Toulouse (France)
+
+  - authors: Cordero-Rull, M.#, Li, P., & Martin, C.
+    year: 2026
+    month: May
+    title: "Beyond words: How native speakers adapt speech and gestures to non-native speakers"
+    event: Conference on Multilingualism 2026 (COM2026)
+    event_link: https://com2026.sciencesconf.org/resource/page/id/10
+    place: Toulouse (France)
+
+  - authors: Qiu, Y.#, Martin, C., & Li, P.
+    student: true
+    year: 2025
+    month: June
+    title: "Speech meets reading: orthographic knowledge modulates speech categorization"
+    event: The 6th Phonetics and Phonology in Europe (PaPE2025)
+    event_link: https://agenda.uib.es/getFiles/hash/NmVzNmBDOjJmNyYWY1QjZmlDMlZjNlJmMMTY0ADNxYj:MFpMTGRHM2Vaa0Z3cDd3QlFXUlF0TkV5eUxPUTNSTExQWlUyZFFxMU8yd3pGVkFHM2VxSksvbWRLQmtodWdUQ05aWE5EOE44VnlhampuZ2w0UGFnNDgrZnBGdHVDN0t5WEQwTnBiMnBNelpGekxQWFRZRkl5SkhNaVlPMzc5eDNZN1BYemRvYkl4RkVQalppZ0xGRkhUeDNOeDA1VUExVDRlYUEwT2F0bU0wcWYrNE1TWEFGc2drRXlxTWdIb3lWZXRvU0lCNE43RCtpN25IRnhKanhrZm5xU3VuTTN2N3U3TThNT3lqZ1d0OD0=
+    place: Palma (Spain)
+
+  - authors: Xi, X., Shea, C., & Li, P.
+    year: 2025
+    month: June
+    title: A longitudinal study of perception and production of L2 Spanish stops and the role of individual differences
+    event: The 6th Phonetics and Phonology in Europe (PaPE2025)
+    event_link: https://agenda.uib.es/getFiles/hash/NmVzNmBDOjJmNyYWY1QjZmlDMlZjNlJmMMTY0ADNxYj:MFpMTGRHM2Vaa0Z3cDd3QlFXUlF0TkV5eUxPUTNSTExQWlUyZFFxMU8yd3pGVkFHM2VxSksvbWRLQmtodWdUQ05aWE5EOE44VnlhampuZ2w0UGFnNDgrZnBGdHVDN0t5WEQwTnBiMnBNelpGekxQWFRZRkl5SkhNaVlPMzc5eDNZN1BYemRvYkl4RkVQalppZ0xGRkhUeDNOeDA1VUExVDRlYUEwT2F0bU0wcWYrNE1TWEFGc2drRXlxTWdIb3lWZXRvU0lCNE43RCtpN25IRnhKanhrZm5xU3VuTTN2N3U3TThNT3lqZ1d0OD0=
+    place: Palma (Spain)
+
+  - authors: Yang, S.#, Li, P., Martin, C., & Stoehr, A.
+    student: true
+    year: 2025
+    month: June
+    title: "Rewriting auditory ability for language learning: Spanish native speakers’ acquisition of voiceless aspirated stops"
+    event: The 34th Conference of the European Second Language Association (EUROSLA34)
+    event_link: https://en.uit.no/tavla/artikkel/sub?p_document_id=845263&sub_id=846110
+    place: Tromsø (Norway)
+
+  - authors: Li, P., Martin, C., & Xi, X.
+    year: 2025
+    month: June
+    title: "The effects of study abroad on L2 lexical stress learning: a longitudinal study"
+    event: The 15th International Symposium on Bilingualism (ISB15)
+    event_link: https://www.bcbl.eu/events/isb15/en/conference-program/su-233/
+    place: Donostia (Spain)
+
+  - authors: Yang, S.#, Li, P., Martin, C., & Stoehr, A.
+    student: true
+    year: 2025
+    month: June
+    title: Is there a bilingual advantage in foreign language phonological acquisition? Training Spanish-Basque bilinguals in the acquisition of lexical tones in a multi-session study
+    event: The 15th International Symposium on Bilingualism (ISB15)
+    event_link: https://www.bcbl.eu/events/isb15/en/conference-program/su-233/
+    place: Donostia (Spain)
+
+  - authors: Qiu, Y.#, Stoehr, A., Martin, C., & Li, P.
+    student: true
+    year: 2025
+    month: May
+    title: "Speech meets reading: orthographic knowledge modulates speech categorization"
+    event: XVII International Symposium of Psycholinguistics (ISP17)
+    event_link: https://ub.symposium.events/119911/programme/xvii-international-symposium-of-psycholinguistics.html
+    place: Barcelona (Spain)
+
+  - authors: Xing, L.#, Li, P., Singh, A., & Kartushina, N.
+    student: true
+    year: 2025
+    month: February
+    title: "Efficacy and generalization of L2 articulatory feedback training: When quality overrides quantity"
+    event: Phonology in the Nordic Countries (FiNo2025)
+    event_link: https://fonologiinorden.wordpress.com/2025/02/19/fino-2025-abstract-booklet/
+    place: Oslo (Norway)
+
+  - authors: Li, P., Flege, J., Martin, C., & Kartushina, N.
+    year: 2024
+    month: June
+    title: Variability and stability in individuals’ speech sound production over time
+    event: International Workshop on Language Production (IWOLP2024)
+    event_link: https://iwolp-2024.sciencesconf.org/data/pages/book_iwolp_2024_en_05.pdf
+    place: Marseille (France)
+
+  - authors: Kartushina, N., Li, P., & Martin, C.
+    year: 2024
+    month: June
+    title: "Vowel systems of early Basque-Spanish bilinguals: The role of language use and code-switching habits in phonetic differentiation"
+    event: International Workshop on Language Production (IWOLP2024)
+    event_link: https://iwolp-2024.sciencesconf.org/data/pages/book_iwolp_2024_en_05.pdf
+    place: Marseille (France)
+
+  - authors: Li, P., Ioannidou, I.#, Marazzina, I.#, Pericacho, P.#, Reardon, B.#, & Xing, L.#
+    student: true
+    year: 2024
+    month: July
+    title: Exploring the role of personality traits in the imitation abilities of non-native speech in familiar and unfamiliar languages
+    event: The 12th International Conference on Speech Prosody (SP2024)
+    event_link: https://www.universiteitleiden.nl/sp2024/program
+    place: Leiden (the Netherlands)
+
+  - authors: Xi, X. & Li, P.
+    year: 2024
+    month: June
+    title: Exploring perceptual development of L2 phonological contrasts during a study abroad program
+    event: The 19th Conference on Laboratory Phonology (LabPhon19)
+    event_link: https://labphon.org/sites/default/files/labphon19/Papers/LabPhon19_paper_84.pdf
+    place: Seoul (Korea)
+
+  - authors: Li, P., Flege, J., Martin, C., & Kartushina, N.
+    year: 2023
+    month: September
+    title: Regressive transfer from L2 to L1 in speech production after a study abroad program
+    event: Architectures and Mechanisms for Language Processing (AMLaP29)
+    event_link: https://www.bcbl.eu/events/amlap/en/conference-program/su-107/
+    place: San Sebastián (Spain)
+
+  - authors: Xi, X. & Li, P.
+    year: 2023
+    month: August
+    title: Effects of stress and prominence on Spanish stops and lenition in L2 speech of proficient Mandarin learners of Spanish
+    event: The 20th International Congress of Phonetic Sciences (ICPhS2023)
+    event_link: https://icphs2023.gcon.me/programme
+    place: Prague (Czechia)
+
+  - authors: Li, P., Martin, C., & Kartushina, N.
+    year: 2023
+    month: June
+    title: A comparison of Spanish and Gipuzkoa Basque vowels produced by Basque-Spanish bilinguals
+    event: The 5th Phonetics and Phonology in Europe (PaPE2023)
+    event_link: https://pape-conference.org/assets/files/PaPE%202023%20BoA.pdf#page=151
+    place: Nijmegen (the Netherlands)
+
+  - authors: Li, P. & Xi, X.
+    year: 2023
+    month: June
+    title: "The prosodic realization of Spanish focus in nuclear position by proficient Chinese learners of Spanish: The case of broad, corrective and contrastive foci"
+    event: The 5th Phonetics and Phonology in Europe (PaPE2023)
+    event_link: https://pape-conference.org/assets/files/PaPE%202023%20BoA.pdf#page=133
+    place: Nijmegen (the Netherlands)
+
+  - authors: Xi, X., Li, P., & Prieto, P.
+    year: 2023
+    month: June
+    title: In L2 phonetic training, learners benefit more with hand gestures cueing visually salient articulatory information
+    event: The 5th Phonetics and Phonology in Europe (PaPE2023)
+    event_link: https://pape-conference.org/assets/files/PaPE%202023%20BoA.pdf#page=225
+    place: Nijmegen (the Netherlands)
+
+  - authors: Li, P. & Xi, X.
+    year: 2022
+    month: September
+    title: Spanish lexical stress produced by proficient Mandarin learners of Spanish
+    event: The 4th International Symposium on Applied Phonetics (ISAPh4)
+    event_link: https://konferens.ht.lu.se/fileadmin/user_upload/conference/isaph2022/ISAPh_2022_Book_of_Abstracts.pdf#page=73
+    place: Lund (Sweden)
+
+  - authors: Li, P., Zhang, Y., Fu, X., Baills, F., & Prieto, P.
+    year: 2022
+    month: May
+    title: Melodic perceptive skills predict Catalan speakers’ imitation abilities of unfamiliar languages
+    event: 11th International Conference on Speech Prosody (SP2022)
+    event_link: http://labfon.letras.ulisboa.pt/sp2022/detailed_program.html
+    place: Lisbon (Portugal)
+
+  - authors: Ozakin, A., Xi, X., Li, P., & Prieto, P.
+    year: 2021
+    month: June
+    title: "Thanks or tanks: training with tactile cues facilitates the pronunciation of English interdental consonants"
+    event: 12th Annual Pronunciation in Second Language Learning and Teaching Conference (PSLLT 2021)
+    event_link: https://brocku.ca/psllt-2021/wp-content/uploads/sites/213/PSLLT-2021-Full-Timetable-June-19.pdf
+    place: On-line event
+
+  - authors: Li, P., Baills, F., Baqué, L., & Prieto, P.
+    year: 2021
+    month: June
+    title: Embodied prosodic training enhances the learning of L2 pronunciation and specific vocalic features
+    event: The 4th Phonetics and Phonology in Europe Conference (PaPE 2021)
+    event_link: https://pape2021.upf.edu/wp-content/uploads/ABSTRACTBOOK.pdf#page=88
+    place: Barcelona (Spain)
+    award: Best poster award by LabPhon
+    award_link: https://pape2021.upf.edu/pape-2021-student-awards/
+
+  - authors: Yuan, C., & Li, P.
+    year: 2019
+    month: September
+    title: Interpreting Mandarin positive polar questions
+    event: The 10th Tutorial and Research Workshop on Experimental Linguistics (ExLing 2019)
+    place: Lisbon (Portugal)
+
+  - authors: Li, P., & Prieto, P.
+    year: 2019
+    month: August
+    title: A short training with durational hand gestures improves Catalan speakers’ pronunciation of Japanese vowel length contrasts
+    event: The 9th International Symposium on the Acquisition of Second Language Speech (New Sounds 2019)
+    event_link: http://www.waseda.jp/assoc-ns2019/assets/files/New_Sounds_2019_Abstract_Booklet.pdf#page=120
+    place: Tokyo (Japan)
+
+  - authors: Li, P., Baills, F., & Prieto, P.
+    year: 2019
+    month: April
+    title: Durational hand gestures facilitate the learning of L2 vowel length contrasts
+    event: XIV International Symposium of Psycholinguistics (ISP)
+    event_link: https://wwwa.fundacio.urv.cat/congressos/isp2019/program
+    place: Tarragona (Spain)

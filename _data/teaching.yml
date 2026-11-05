@@ -1,0 +1,188 @@
+# TEACHING
+# Sections: linguistics, japanese, visiting, language_schools. Newest first.
+#
+# "linguistics" entries:
+#   - term: 2025 Fall semester
+#     course: Quantitative methods
+#     level: Master
+#     program: Cognitive Neuroscience of Language
+#     institution: BCBL-University of the Basque Country, Spain
+#   Optional: code (e.g. MULTI4150); for a guest lecture add guest: true and guest_lecture_for
+#
+# Other sections group courses by term; add a line under "courses", or a new term block:
+#   - term: 2017 Spring semester
+#     courses:
+#       - Japanese Linguistics (32h), Japanese BA program.
+#
+# Put text in "double quotes" when it contains a colon followed by a space, or starts with a symbol.
+
+linguistics:
+
+  - term: 2025 Fall semester
+    course: Quantitative methods
+    level: Master
+    program: Cognitive Neuroscience of Language
+    institution: BCBL-University of the Basque Country, Spain
+
+  - term: 2025 Spring semester
+    course: Advanced Statistics
+    level: Ph.D.
+    program: Cognitive Neuroscience
+    institution: BCBL-University of the Basque Country, Spain
+
+  - term: 2024 Fall semester
+    course: Quantitative methods
+    level: Master
+    program: Cognitive Neuroscience of Language
+    institution: University of the Basque Country, Spain
+
+  - term: 2024 Spring semester
+    course: "An explicit training technique: Hand gestures for L2 phonetic training"
+    guest: true
+    guest_lecture_for: Second Language Acquisition (12865101)
+    level: Master
+    program: Teaching and Learning English as a Foreign/Second Language
+    institution: University of Rovira i Virgili, Spain
+
+  - term: 2023 Spring semester
+    course: Project-based Research in Multilingualism
+    code: MULTI4150
+    level: Master
+    program: Multilingualism
+    institution: University of Oslo, Norway
+
+  - term: 2023 Spring semester
+    course: Speaking
+    guest: true
+    guest_lecture_for: Psycholinguistics & Sociolinguistics (LING1113)
+    level: BA
+    program: Linguistics
+    institution: University of Oslo, Norway
+
+  - term: 2022-2023 Fall semester
+    course: "Accent: Comprehension & Production"
+    guest: true
+    guest_lecture_for: Multilingualism (LING1109)
+    level: BA
+    program: Linguistics
+    institution: University of Oslo, Norway
+
+japanese:
+
+  - term: 2017 Spring semester
+    courses:
+      - Japanese Linguistics (32h), Japanese BA program.
+      - Japanese Reading II (32h), Japanese BA program.
+      - Japanese as Second Foreign Language II (64h), English BA program.
+
+  - term: 2016 Fall semester
+    courses:
+      - A Brief Introduction to Japanese (16h), Optional course to the whole university.
+      - Japanese Linguistics (32h), Japanese BA program.
+      - Japanese as Second Foreign Language III (64h), English BA program.
+      - Japanese as Second Foreign Language I (64h), English BA program.
+      - Japanese Reading III (32h), Japanese BA program.
+
+  - term: 2016 Spring semester
+    courses:
+      - Japanese as Second Foreign Language II (64h), English BA program.
+      - Japanese Reading II (32h), Japanese BA program.
+
+  - term: 2015 Fall semester
+    courses:
+      - Japanese Linguistics (32h), Japanese BA program.
+      - Japanese as Second Foreign Language I (64h), English BA program.
+      - Japanese Reading III (32h), Japanese BA program.
+      - Japanese Reading I (32h), Japanese BA program.
+
+  - term: 2015 Spring semester
+    courses:
+      - "Basic Japanese: An Integrated Course II (144h), Japanese BA program."
+
+  - term: 2014 Fall semester
+    courses:
+      - Japanese Linguistics (32h), Japanese BA program.
+      - Japanese as Second Foreign Language I (64h), English BA program.
+      - Japanese Reading III (32h), Japanese BA program.
+      - Japanese Reading I (32h), Japanese BA program.
+
+  - term: 2014 Spring semester
+    courses:
+      - "Basic Japanese: An Integrated Course II (144h), Japanese BA program."
+      - Business Japanese Writing (32h), Japanese BA program.
+
+  - term: 2013 Fall semester
+    courses:
+      - Business Japanese Writing (32h), Japanese BA program.
+      - Japanese as Second Foreign Language I (64h), English BA program.
+      - Japanese Reading I (32h), Japanese BA program.
+      - Japanese Listening I (20h), Japanese BA program.
+
+visiting:
+
+  - term: "2013"
+    courses:
+      - Basic Japanese II (64h), Tianjin Normal University, China.
+
+  - term: "2012"
+    courses:
+      - Basic Japanese I (64h), Tianjin Normal University, China.
+      - Japanese Reading II (64h), Tianjin Foreign Studies University, China.
+      - Basic Japanese II (64h), Tianjin Normal University, China.
+
+  - term: "2011"
+    courses:
+      - Basic Japanese I (64h), Tianjin Normal University, China.
+
+language_schools:
+
+  - term: "2021"
+    courses:
+      - Chinese 9 (64h), Hanlin Chinese Language School, Barcelona, Spain.
+      - Chinese 8 (64h), Hanlin Chinese Language School, Online.
+
+  - term: "2020"
+    courses:
+      - Chinese 7 (64h), Hanlin Chinese Language School, Online.
+      - Chinese 6 (64h), Hanlin Chinese Language School, Online.
+
+  - term: "2019"
+    courses:
+      - Chinese 5 (64h), Hanlin Chinese Language School, Barcelona, Spain.
+      - Chinese 4 (64h), Hanlin Chinese Language School, Barcelona, Spain.
+
+  - term: "2018"
+    courses:
+      - Chinese 3 (64h), Hanlin Chinese Language School, Barcelona, Spain.
+
+  - term: "2017"
+    courses:
+      - Japanese Level 5 (60h), Youxiangxue Education, Hefei, China.
+      - Japanese Level 4 (60h), Youxiangxue Education, Hefei, China.
+      - Spanish Level 3 (90h), Youxiangxue Education, Hefei, China.
+      - Spanish Level 2 (90h), Youxiangxue Education, Hefei, China.
+
+  - term: "2016"
+    courses:
+      - Japanese Level 5 (60h), Youxiangxue Education, Hefei, China.
+      - Japanese Level 4 (60h), Youxiangxue Education, Hefei, China.
+      - Spanish Level 3 (90h), Youxiangxue Education, Hefei, China.
+      - Spanish Level 2 (90h), Youxiangxue Education, Hefei, China.
+
+  - term: "2015"
+    courses:
+      - Japanese Level 4 (60h), Youxiangxue Education, Hefei, China.
+      - Japanese Level 3 (60h), Youxiangxue Education, Hefei, China.
+      - Spanish Level 2 (90h), Youxiangxue Education, Hefei, China.
+      - Spanish Level 1 (45h), Youxiangxue Education, Hefei, China.
+
+  - term: "2014"
+    courses:
+      - Japanese Level 4 (60h), Youxiangxue Education, Hefei, China.
+      - Spanish Level 2 (90h), Youxiangxue Education, Hefei, China.
+      - Spanish Level 1 (45h), Youxiangxue Education, Hefei, China.
+
+  - term: "2013"
+    courses:
+      - Japanese Level 4 (60h), Youxiangxue Education, Hefei, China.
+      - Spanish Level 1 (45h), Youxiangxue Education, Hefei, China.

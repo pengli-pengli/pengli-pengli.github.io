@@ -1,0 +1,308 @@
+# PUBLICATIONS
+# Sections: journal_articles, book_chapters, proceedings. Newest first.
+# To add an item, copy an entry, paste it at the top of its section, and edit it.
+# Keep the two-space indent and the "- " in front of the first line.
+# Your name ("Li, P." or "Li, P.*") is bolded automatically. Titles get a final period automatically.
+#
+# Journal article fields: authors, year, title, journal, volume, issue, pages, doi
+# Chapter or proceedings fields: authors, year, title, editors, book, details, doi
+# Optional: doi_link (if the DOI should open another page), pdf + pdf_label,
+#           isbn + isbn_link, award + award_link
+#
+# Example:
+#   - authors: Li, P.*, Martin, C. D., & Kartushina, N.
+#     year: 2026
+#     title: "Same vowels, distinct sounds: Phonetic differentiation in early Basque-Spanish bilinguals’ vowel production"
+#     journal: Linguistic Approaches to Bilingualism
+#     doi: 10.1075/lab.25054.li
+#
+# Put text in "double quotes" when it contains a colon followed by a space, or starts with a symbol.
+
+journal_articles:
+
+  - authors: Li, P., Xi, X.*, & Martin, C. D.
+    year: 2026
+    title: "Auditory acuity and L2 input jointly shift suprasegmental cue-weighting after study abroad: Mandarin speakers’ perception of Spanish lexical stress"
+    journal: Second Language Research
+    doi: 10.1177/02676583261441156
+
+  - authors: Xi, X., Shea, C., & Li, P.*
+    year: 2026
+    title: "Perceptual development of second language sound categories in a study abroad program: L1 Mandarin speakers in Spain"
+    journal: Language and Speech
+    doi: 10.1177/00238309261434241
+
+  - authors: Li, P.*, Martin, C. D., & Kartushina, N.
+    year: 2026
+    title: "Same vowels, distinct sounds: Phonetic differentiation in early Basque-Spanish bilinguals’ vowel production"
+    journal: Linguistic Approaches to Bilingualism
+    doi: 10.1075/lab.25054.li
+
+  - authors: Gao, S., Xi, X., & Li, P.*
+    year: 2026
+    title: "Revisiting the benefits of hand gestures in L2 pronunciation: Generalization effects in multi-session multimodal phonetic training"
+    journal: Language and Speech
+    doi: 10.1177/00238309251399140
+
+  - authors: Li, P.*, Ioannidou, I.#, Marazzina, I.#, Pericacho, P.#, Reardon, B.#, & Xing, L.#
+    year: 2026
+    title: "The predictive roles of musical aptitude, auditory abilities, and working memory in L2 speech imitation: Differences between familiar and unfamiliar languages"
+    journal: Vigo International Journal of Applied Linguistics
+    volume: 23
+    pages: 115-144
+    doi: 10.35869/vial.v0i23.5772
+    doi_link: https://revistas.uvigo.es/index.php/vial/article/view/5772/4010
+
+  - authors: Xi, X., & Li, P.*
+    year: 2026
+    title: A review of the effectiveness of hand gestures in second language phonetic training
+    journal: Languages
+    volume: 11
+    issue: 3
+    pages: "43"
+    doi: 10.3390/languages11030043
+    award: Cover story, selected by the editor-in-chief
+    award_link: https://www.mdpi.com/2226-471X/11/3
+
+  - authors: Li, P.* & Ye, C.
+    year: 2025
+    title: "Facilitative L1-transfer in nonnative sound production of monolingual and bilingual learners: Phonological overlap and L2 experience"
+    journal: Journal of Second Language Studies
+    volume: 8
+    issue: 1
+    pages: 58-88
+    doi: 10.1075/jsls.00034.li
+
+  - authors: Li, P.* & Xi, X.
+    year: 2024
+    title: Nuclear contours of Spanish statements and questions produced by Mandarin speakers with advanced Spanish proficiency
+    journal: Phonica
+    volume: 20
+    pages: 1-26
+    doi: 10.1344/phonica2024.20.3
+    doi_link: https://revistes.ub.edu/index.php/phonica/article/view/45159/42143
+
+  - authors: Xi, X.*, Li, P., & Prieto, P.
+    year: 2024
+    title: "Improving L2 vowel production with hand gestures encoding visible articulation: Evidence from picture-naming and paragraph-reading tasks"
+    journal: Language Learning
+    volume: 74
+    issue: 4
+    pages: 884-916
+    doi: 10.1111/lang.12647
+
+  - authors: Li, P.*, Zhang, Y., Baills, F., & Prieto, P.
+    year: 2024
+    title: "Musical perception skills predict speech imitation skills: Differences between speakers of tone and intonation languages"
+    journal: Language and Cognition
+    volume: 16
+    issue: 3
+    pages: 647–665
+    doi: 10.1017/langcog.2023.52
+
+  - authors: Li, P.*, Baills, F., Alazard-Guiu, C., Baqué, L., & Prieto, P.
+    year: 2023
+    title: A pedagogical note on teaching L2 prosody and speech sounds using hand gestures
+    journal: Journal of Second Language Pronunciation
+    volume: 9
+    issue: 3
+    pages: 340-349
+    doi: 10.1075/jslp.23043.li
+
+  - authors: Li, P.*, Baills, F., Baqué, L., & Prieto, P.
+    year: 2023
+    title: The effectiveness of the embodied prosodic training in L2 accentedness and vowel accuracy
+    journal: Second Language Research
+    volume: 39
+    issue: 4
+    pages: 1077-1105
+    doi: 10.1177/02676583221124075
+
+  - authors: Ozakin, A.*, Xi, X., Li, P., & Prieto, P.
+    year: 2023
+    title: "Thanks or tanks: Training with tactile cues improves learners’ accuracy of English interdental consonants in an oral reading task"
+    journal: Language Learning and Development
+    volume: 19
+    issue: 4
+    pages: 404-419
+    doi: 10.1080/15475441.2022.2107522
+
+  - authors: Li, P.*, Xi, X., Baills, F. & Prieto, P.
+    year: 2021
+    title: "Training non-native aspirated plosives with hand gestures: Learners’ gesture performance matters"
+    journal: Language, Cognition and Neuroscience
+    volume: 36
+    issue: 10
+    pages: 1313-1328
+    doi: 10.1080/23273798.2021.1937663
+
+  - authors: Li, P.*, Baills, F. & Prieto, P.
+    year: 2020
+    title: Observing and producing durational hand gestures facilitates the pronunciation of novel vowel-length contrasts
+    journal: Studies in Second Language Acquisition
+    volume: 42
+    issue: 5
+    pages: 1015-1039
+    doi: 10.1017/S0272263120000054
+    award: Reported by La Vanguardia
+    award_link: https://www.lavanguardia.com/vida/20200416/48558548631/los-gestos-facilitan-la-pronunciacion-de-palabras-de-una-segunda-lengua.html
+
+  - authors: Xi, X.*, Li, P., Baills, F. & Prieto, P.
+    year: 2020
+    title: Hand gestures facilitate the acquisition of novel phonemic contrasts when they appropriately mimic target phonetic features
+    journal: Journal of Speech, Language, and Hearing Research
+    volume: 63
+    issue: 11
+    pages: 3571-3585
+    doi: 10.1044/2020_JSLHR-20-00084
+
+book_chapters:
+
+  - authors: Xi, X.*, Li, P., Baills, F., & Prieto, P.
+    year: 2026
+    title: "Observing versus producing gestures for the learning of L2 sounds: What gesture performance tells us"
+    editors: L. Morett & S. Inceoglu (Eds.).
+    book: Gesture in Second Language Acquisition and Pedagogy
+    details: De Gruyter Mouton
+    doi: 10.1515/9783111568645-007
+
+  - authors: Li, P.*, Baills, F., Xi, X., & Prieto, P.
+    year: 2024
+    title: Gesture shape and gesture-speech alignment predict simultaneous L2 sound production accuracy
+    editors: A. Brown & S. W. Eskildsen (Eds.).
+    book: Multimodality across Epistemologies in Second Language Research
+    details: "(pp. 173–186) New York: Routledge"
+    doi: 10.4324/9781003355670-13
+
+proceedings:
+
+  - authors: Li, P.*, Ioannidou, I.#, Marazzina, I.#, Pericacho, P.#, Reardon, B.#, & Xing, L.#*
+    year: 2024
+    title: Exploring the role of personality traits in the imitation abilities of non-native speech in familiar and unfamiliar languages
+    editors: Y. Chen, A. Chen, & A. Arvaniti (Eds.),
+    book: Proceedings of the 12th International Conference on Speech Prosody
+    details: (pp. 265-269)
+    doi: 10.21437/SpeechProsody.2024-54
+    doi_link: https://www.isca-archive.org/speechprosody_2024/li24d_speechprosody.pdf
+
+  - authors: Li, P.*, & Xi, X.
+    year: 2024
+    title: The perception of Spanish lexical stress by proficient Mandarin learners of Spanish
+    editors: Y. Chen, A. Chen, & A. Arvaniti (Eds.),
+    book: Proceedings of the 12th International Conference on Speech Prosody
+    details: (pp. 354-358)
+    doi: 10.21437/SpeechProsody.2024-72
+    doi_link: https://www.isca-archive.org/speechprosody_2024/li24_speechprosody.pdf
+
+  - authors: Xi, X.*, Zhou, S., & Li, P.
+    year: 2024
+    title: Duration as a prosodic marker of contextual factors in Mandarin positive polar questions
+    editors: Y. Chen, A. Chen, & A. Arvaniti (Eds.),
+    book: Proceedings of the 12th International Conference on Speech Prosody
+    details: (pp. 687-691)
+    doi: 10.21437/SpeechProsody.2024-139
+    doi_link: https://www.isca-archive.org/speechprosody_2024/xi24_speechprosody.pdf
+
+  - authors: Li, P.*, Flege, J., Martin, C., & Kartushina, N.
+    year: 2023
+    title: "Speech stability across time: Evidence from Norwegian vowels in spontaneous speech production"
+    editors: R. Skarnitzl & J. Volín (Eds.),
+    book: Proceedings of the 20th International Congress of Phonetic Sciences (ICPhS2023)
+    details: (pp. 1201-1205). Guarant International
+    pdf: https://www.internationalphoneticassociation.org/icphs-proceedings/ICPhS2023/full_papers/1030.pdf
+    pdf_label: Full paper
+
+  - authors: Li, P.* & Xi, X.
+    year: 2023
+    title: "Nuclear contours of Spanish echo questions produced by proficient Chinese learners of Spanish: A dynamic analysis"
+    editors: R. Skarnitzl & J. Volín (Eds.),
+    book: Proceedings of the 20th International Congress of Phonetic Sciences (ICPhS2023)
+    details: (pp. 2491-2495). Guarant International
+    pdf: https://www.internationalphoneticassociation.org/icphs-proceedings/ICPhS2023/full_papers/265.pdf
+    pdf_label: Full paper
+
+  - authors: Xi, X.* & Li, P.
+    year: 2023
+    title: Effects of stress and prominence on Spanish stops and lenition in L2 speech of proficient Mandarin learners of Spanish
+    editors: R. Skarnitzl & J. Volín (Eds.),
+    book: Proceedings of the 20th International Congress of Phonetic Sciences (ICPhS2023)
+    details: (pp. 2740-2744). Guarant International
+    pdf: https://www.internationalphoneticassociation.org/icphs-proceedings/ICPhS2023/full_papers/918.pdf
+    pdf_label: Full paper
+
+  - authors: Xi, X.*, Li, P., & Prieto, P.
+    year: 2023
+    title: Does visuospatial working memory predict L2 audiovisual perceptual learning from phonetic training with hand gestures?
+    editors: R. Skarnitzl & J. Volín (Eds.),
+    book: Proceedings of the 20th International Congress of Phonetic Sciences (ICPhS2023)
+    details: (pp. 2670-2674). Guarant International
+    pdf: https://www.internationalphoneticassociation.org/icphs-proceedings/ICPhS2023/full_papers/749.pdf
+    pdf_label: Full paper
+
+  - authors: Xi, X.*, Li, P., & Prieto, P.
+    year: 2023
+    title: Reducing acoustic overlap of L2 English vowels through gestures encoding lip aperture
+    editors: A. Henderson & A. Kirkova-Naskova (Eds.),
+    book: "Proceedings of the 7th International Conference on English Pronunciation: Issues and Practices"
+    details: (pp. 261–270). Université Grenoble-Alpes
+    doi: 10.5281/zenodo.8225191
+    doi_link: https://hal.science/hal-04178886v1/preview/EPIP7Proc_2023_Xi%20et%20al.pdf#page=2
+
+  - authors: Li, P.* & Xi, X.
+    year: 2022
+    title: Spanish lexical stress produced by proficient Mandarin learners of Spanish
+    editors: S. Ishihara & M. Tronnier (Eds.),
+    book: Proceedings of the 4th International Symposium on Applied Phonetics (ISAPh2022)
+    details: (pp. 40-45)
+    doi: 10.21437/ISAPh.2022-8
+    doi_link: https://www.isca-archive.org/isaph_2022/li22_isaph.pdf
+
+  - authors: Xi, X.* & Li, P.
+    year: 2022
+    title: Spanish stops and their allophones produced by proficient Mandarin learners of Spanish
+    editors: V. H. Do, C. M. Luong, S. Nakamura, H. H. Nguyen, & T. M. H. Nguyen (Eds.),
+    book: 25th Conference of the Oriental COCOSDA International Committee for the Co-ordination and Standardisation of Speech Databases and Assessment Techniques (O-COCOSDA), 2022
+    details: (pp. 152-157)
+    doi: 10.1109/O-COCOSDA202257103.2022.9997932
+    doi_link: https://ieeexplore.ieee.org/document/9997932
+
+  - authors: Li, P.* & Ye, C.
+    year: 2022
+    title: Voice onset time of Japanese stops produced by Shanghainese-Mandarin learners with various Japanese proficiency levels
+    editors: E. Babatsouli (Ed.),
+    book: Proceedings of the International Symposium on Monolingual and Bilingual Speech 2022
+    details: (pp. 54-60)
+    isbn: 979-8-218-08730-2
+    isbn_link: https://speechandlanguage.louisiana.edu/sites/speechandlanguage/files/Proceedings%20ISMBS%202022.pdf#page=62
+
+  - authors: Li, P.*, Zhang, Y., Fu, X., Baills, F., & Prieto, P.
+    year: 2022
+    title: Melodic perceptive skills predict Catalan speakers’ imitation abilities of unfamiliar languages
+    editors: S. Frota, M. Cruz, & M. Vigário (Eds.),
+    book: Proceedings of the 11th International Conference on Speech Prosody
+    details: (pp. 876–880)
+    doi: 10.21437/SpeechProsody.2022-178
+    doi_link: https://www.isca-archive.org/speechprosody_2022/li22f_speechprosody.pdf
+
+  - authors: Li, P.*, Xi, X., Baills, F., & Prieto, P.
+    year: 2020, accepted
+    title: Appropriately performing hand gestures cueing phonetic features facilitates simultaneous speech imitation in an L2
+    book: Proceedings of the 7th GeSpIn Conference
+    pdf: /files/postprints/Li_gespin_2020.pdf
+    pdf_label: Author copy
+
+  - authors: Xi, X.*, Li, P., Baills, F., & Prieto, P.
+    year: 2020, accepted
+    title: "Training the pronunciation of L2 novel phonetic features: A comparison of observing versus producing hand gestures"
+    book: Proceedings of the 7th GeSpIn Conference
+    pdf: /files/postprints/Xi_gespin_2020.pdf
+    pdf_label: Author copy
+
+  - authors: Yuan, C.* & Li, P.
+    year: 2019
+    title: Interpreting Mandarin positive polar questions
+    editors: A. Botinis (Ed.),
+    book: Proceedings of the 10th International Conference of Experimental Linguistics
+    details: (pp. 213-216)
+    doi: 10.36505/ExLing-2019/10/0053/000415
+    doi_link: https://exlingsociety.com/wp-content/uploads/proceedings/exling-2019/10_0053_000415.pdf

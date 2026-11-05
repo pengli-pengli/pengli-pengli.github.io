@@ -1,0 +1,188 @@
+# SUPERVISION
+# Sections: phd, master, undergraduate. Newest first.
+# To add a student, copy an entry, paste it at the top of its section, and edit it.
+#
+# Fields: student, year (e.g. 2026 or "expected 2029"), title, type, institution
+# Optional: title_original (shown after the title in gray), cosupervisor, status (e.g. Discontinued)
+#
+# Example:
+#   - student: Huiyi Hu
+#     year: expected 2029
+#     title: "Foreign Directed Speech: Didactic function and impact"
+#     type: PhD dissertation
+#     institution: University of the Basque Country
+#     cosupervisor: Prof. Clara Martin
+#
+# Put text in "double quotes" when it contains a colon followed by a space, or starts with a symbol.
+
+phd:
+
+  - student: Huiyi Hu
+    year: expected 2029
+    title: "Foreign Directed Speech: Didactic function and impact"
+    type: PhD dissertation
+    institution: University of the Basque Country
+    cosupervisor: Prof. Clara Martin
+
+  - student: Robert Cavaluzzi
+    year: expected 2028
+    title: Orthographic effects in third language acquisition
+    type: PhD dissertation
+    institution: University of the Basque Country
+    cosupervisor: A. Stoehr
+    status: Discontinued
+
+  - student: Silvia Yang
+    year: expected 2026
+    title: Auditory acuity influence in speech sound production learning
+    type: PhD dissertation
+    institution: University of the Basque Country
+    cosupervisor: Dr. Antje Stoehr
+
+master:
+
+  - student: Alexandra Drogata
+    year: 2026
+    title: Auditory processing and high variability phonetic training
+    type: MSc thesis
+    institution: University of Trento, Italy
+    cosupervisor: Dr. Antje Stoehr
+
+  - student: Aliona Yarovich
+    year: 2025
+    title: "Improving comprehensibility and accentedness in spontaneous speech: The role of L2 use in a study abroad program"
+    type: MSc thesis
+    institution: University of the Basque Country, Spain
+    cosupervisor: Prof. Clara Martin
+
+  - student: Lu Xing
+    year: 2024
+    title: The effect of phonetic production training with different types of visual feedback on the learning of L2 vowels
+    type: MA thesis in Multilingualism
+    institution: University of Oslo, Norway
+    cosupervisor: Prof. Natalia Kartushina
+
+  - student: Åshild Løvvig
+    year: 2023
+    title: "To [dʉː] or not to [dʉː]: Pronunciation in second language and second dialect: The case of Danish learning Norwegian"
+    type: MA thesis in Linguistics
+    institution: University of Oslo, Norway
+    cosupervisor: Prof. Haley De Korne
+
+  - student: Ine Esbensen
+    year: 2023
+    title: "Crosslinguistic influences in L2 pronunciation learning over time: The case of Norwegian speakers learning Chinese"
+    type: Educational summer research project
+    institution: University of Oslo, Norway
+
+  - student: Paula Pericacho
+    year: 2023
+    title: "Regressive transfer of vowel production over time: The case of Norwegian speakers learning Chinese"
+    type: Educational summer research project
+    institution: University of Oslo, Norway
+
+  - student: Sander Vassanyi
+    year: 2022
+    title: "Individuals’ stability in native speech sound production: Do I sound differently this Monday than the last?"
+    type: Educational summer research project
+    institution: University of Oslo, Norway
+
+undergraduate:
+
+  - student: Rui Ren
+    year: 2017
+    title: Contact with Japanese language through soap operas among students at Hefei University
+    title_original: 合肥学院の大学生がドラマを通して日本語との接触
+    type: BA thesis
+    institution: Hefei University
+
+  - student: Hua Tian
+    year: 2017
+    title: "The protection of Huizhou architecture: Hints from Kyoto"
+    title_original: 京都の伝統建築の保護が徽州建築の保護への示唆
+    type: BA thesis
+    institution: Hefei University
+
+  - student: Qianqian Huang
+    year: 2017
+    title: "The promotion of Anhui Cuisine overseas: Hints from the reception of Japanese restaurants in Hefei"
+    title_original: 日本料理店の受容が安徽料理の海外プロモーションにもたらしたヒント
+    type: BA thesis
+    institution: Hefei University
+
+  - student: Wenjing Wang
+    year: 2017
+    title: The use of VR technology in the education industry has implications for Japanese teaching at Hefei University
+    title_original: VR技術の教育産業における応用が合肥学院の日本語教育への示唆
+    type: BA thesis
+    institution: Hefei University
+
+  - student: Shuangman Zhou
+    year: 2017
+    title: The irrational consumption of Japanese cosmetics
+    title_original: 日本の化粧品の非理性的な消費について
+    type: BA thesis
+    institution: Hefei University
+
+  - student: Shuang Zheng
+    year: 2016
+    title: "Chinese-Japanese translation strategies: Taking “shechi (luxury)” as an example"
+    title_original: 中日翻訳のストラテジー―「奢侈」を中心に
+    type: BA thesis
+    institution: Hefei University
+
+  - student: Meiling Wu
+    year: 2016
+    title: The importance of grammatical modalities in the listening comprehension of JLPT-N1
+    title_original: 日本語能力試験N1におけるモダリティの重要性についての一考察
+    type: BA thesis
+    institution: Hefei University
+
+  - student: Xueqing Wang
+    year: 2016
+    title: Chinese-Japanese translation strategies of Hefei’s local snacks
+    title_original: 合肥軽食の名称の日本語訳のストラテジーに関する一考察
+    type: BA thesis
+    institution: Hefei University
+
+  - student: Yeqing Chen
+    year: 2016
+    title: The learning of e and ni by the Japanese majors at Hefei University
+    title_original: 「へ」と「に」の習得調査——合肥学院を例として
+    type: BA thesis
+    institution: Hefei University
+
+  - student: Shaohong Dai
+    year: 2016
+    title: Ambiguous expressions in business Japanese conversations
+    title_original: ビジネス日本語会話における曖昧表現に関する一考察
+    type: BA thesis
+    institution: Hefei University
+
+  - student: Shiqi Qian
+    year: 2015
+    title: Aesthetics in Korin Ogata’s folding screen paintings
+    title_original: 尾形光琳の屏風絵から見る美意識
+    type: BA thesis
+    institution: Hefei University
+
+  - student: Qiu Meng
+    year: 2015
+    title: The misuse of Sino-Japanese words in Chinese-Japanese translation by Japanese majors at Hefei University
+    title_original: 中日翻訳における漢語の誤用に関する一考察―合肥学院日本語学科の学生を中心に
+    type: BA thesis
+    institution: Hefei University
+
+  - student: Ruwei Guo
+    year: 2015
+    title: Teru Miyamoto’s views on life and death in Hotarugawa
+    title_original: 『蛍川』に見られる宮本輝の生死観
+    type: BA thesis
+    institution: Hefei University
+
+  - student: Renxia Zhang
+    year: 2015
+    title: The distinctions between V-te kuru and V-te ki-te iru
+    title_original: 「Vてくる」と「Vてきている」の使い分けに関する一考察
+    type: BA thesis
+    institution: Hefei University

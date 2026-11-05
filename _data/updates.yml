@@ -1,0 +1,25 @@
+# UPDATES (the homepage shows the three newest, sorted by date)
+# To add one, paste a block anywhere in this list. Older updates can stay; they are simply not shown.
+#
+# Fields: date (YYYY-MM-DD), type (a short label: Talk, Paper, Position, Grant, Workshop...), text, link (optional)
+#
+# Example:
+#   - date: 2026-06-24
+#     type: Talk
+#     text: "Presenting audio-visual vs. audio-tactile training of Italian stops at EuroSLA35"
+#     link: https://eurosla35.fcsh.unl.pt/program-participation/
+#
+# Put text in "double quotes" when it contains a colon followed by a space, or starts with a symbol.
+
+- date: 2026-11-01
+  type: Workshop
+  text: "AmpleFDS: a workshop on foreigner-directed speech at PaPE 2027"
+
+- date: 2026-04-15
+  type: Paper
+  text: "New paper in Second Language Research: auditory acuity and L2 input jointly shift Mandarin speakers’ cue-weighting for Spanish lexical stress after study abroad"
+  link: https://doi.org/10.1177/02676583261441156
+
+- date: 2025-11-25
+  type: Talk
+  text: "Invited talk at the Language, Cognition, and Communication lab, University of Edinburgh: comparing tactile and visual phonetic training"

@@ -1,0 +1,6 @@
+<ul class="terms">
+{%- for g in include.list %}
+<li><span class="term">{{ g.term }}</span>
+<ul>{% for c in g.courses %}<li>{{ c }}</li>{% endfor %}</ul></li>
+{%- endfor %}
+</ul>

@@ -1,29 +1,34 @@
 ---
 layout: page
 description: "Marie Skłodowska-Curie Fellow | Assistant Researcher at University of Lisbon"
-header-img: "img/post-bg-gesture1.jpg"
+header-img: "media/images/post-bg-gesture1.jpg"
 ---
 
-<div class="post-container">
- 
-<h3 id="toc_0">Short bio [<a href="https://pengli-pengli.github.io/Peng_Li.pdf">CV</a>]</h3>
-<font size="2"> 
-  <p>I am a <b>Marie Skłodowska-Curie fellow and Assistant Researcher</b> at Center of Linguistics, University of Lisbon (<a href="https://www.clul.ulisboa.pt/en/pessoa/pengli"><b>CLUL</b></a>), Portugal.</p>
+<div class="post-container bio">
+
+<h3 id="toc_0" class="bio-head">Short bio <a class="cv-button" href="{{ site.baseurl }}/files/cv/Peng_Li.pdf"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm-1 7V3.5L18.5 9H13zM8 13h8v2H8v-2zm0 4h8v2H8v-2z"/></svg>Download CV (PDF)</a></h3>
+<p>I am a <b>Marie Skłodowska-Curie fellow and Assistant Researcher</b> at Center of Linguistics, University of Lisbon (<a href="https://www.clul.ulisboa.pt/en/pessoa/pengli"><b>CLUL</b></a>), Portugal.</p>
   <p>I received my <b>Ph.D. in Translation and Language Science (2021)</b> from the University Pompeu Fabra, Spain. After that, I worked as a <b>Post-doc Fellow in Psycholinguistics (2022-23)</b> at the University of Oslo (<a href="https://www.hf.uio.no/iln/english/research/multiling/"><b>UiO</b></a>), Norway. Then, I was granted a <b>Juan de la Cierva fellowship (2024-25)</b> by the Spanish State Research Agency (AEI) and worked at the Basque Center on Cognition, Brain, and Language (<a href="https://www.bcbl.eu/en/research/research-groups/speech-bilingualism"><b>BCBL</b></a>), Spain. Before moving to Europe, I was a <b>Lecturer of Japanese Studies (2013-17)</b> at Hefei University (China).</p>
   <p>My research can be summarized in three lines:</p>
-  <li><b>Speech and bilingualism. </b>I focus on the crosslinguistic transfer between bilingual speakers' first and second languages.</li>
-  <li><b>Multimodal phonetic training.</b> I develop various training techniques for L2 phonetic and prosodic learning, including hand gestures, visual feedback, tactile feedback, auditory training, etc. </li>
-  <li><b>Individual differences in SLA</b>. I try to understand how cognitive and experiential factors affect the development of L2 speech acquisition.</li>
- </font>
-    <h3 id="toc_0">Find me on</h3>
- <ul><font size="2">
-     <li>Twitter: <a href="https://twitter.com/PengGuillemLi">https://twitter.com/PengGuillemLi</a></li>
-     <li>ResearchGate: <a href="https://www.researchgate.net/profile/Peng-Li-98">https://www.researchgate.net/profile/Peng-Li-98</a></li>
-     <li>Google Scholar: <a href="https://scholar.google.com/citations?user=p0WmujEAAAAJ&hl=zh-CN">https://scholar.google.com/citations?user=p0WmujEAAAAJ&hl=zh-CN</a></li>
-     <li>ORCID: <a href="https://orcid.org/0000-0003-4488-3514">https://orcid.org/0000-0003-4488-3514</a></li>
- <p>Feel free to contact me when you have any questions or comments about my research, or if you are interested in collaboration!</p>
- </font></ul>
-    
-<img src="img/praat.png"/>
-    
+  <div class="lines">
+    <div class="line"><h4>Second language prosody</h4><p>I study how learners perceive and produce lexical stress, intonation, and tones in a new language, and how music may help them learn it.</p></div>
+    <div class="line"><h4>Multimodal pronunciation training</h4><p>I test how hand gestures, tactile cues, visual feedback, and auditory training can improve L2 sounds and prosody.</p></div>
+    <div class="line"><h4>Language experience and individual differences</h4><p>I examine how bilingualism, study abroad, and abilities such as auditory acuity, musical aptitude, and working memory shape L2 speech.</p></div>
+  </div>
+
+<h3 id="updates">Updates</h3>
+<!-- The three newest items from _data/updates.yml -->
+{% assign updates = site.data.updates | sort: "date" | reverse %}
+<ul class="updates">
+{%- for u in updates limit: 3 %}
+<li><span class="when">{{ u.date | date: "%b %Y" }}</span><span class="kind">{{ u.type }}</span><span class="what">{% if u.link %}<a href="{{ u.link }}">{{ u.text }}</a>{% else %}{{ u.text }}{% endif %}</span></li>
+{%- endfor %}
+</ul>
+
+<h3 id="toc_1">Find me on</h3>
+{% include social.html labels=true %}
+<p>Feel free to contact me when you have any questions or comments about my research, or if you are interested in collaboration!</p>
+
+<div class="figure"><img src="media/images/praat.png" alt="Waveform, spectrogram and pitch contour of the name Péng Lǐ"/></div>
+
 </div>

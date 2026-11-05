@@ -1,0 +1,2 @@
+{%- assign e = include.e -%}
+<li>{{ e.student }}. ({{ e.year }}). “{{ e.title }}{% if e.title_original %}/<span class="orig">{{ e.title_original }}</span>{% endif %}”. <b>{{ e.type }}</b> at {{ e.institution }}.{% if e.cosupervisor %} Co-supervised with {{ e.cosupervisor }}.{% endif %}{% if e.status %} <span class="status">{{ e.status }}</span>{% endif %}</li>
