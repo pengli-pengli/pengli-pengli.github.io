@@ -28,7 +28,7 @@
   type: Workshop
   title: AmpleFDS workshop at PaPE 2027
   link: https://labfon.letras.ulisboa.pt/PAPE2027/workshop-amplefds.html
-  image: /media/images/post-bg-gesture1.jpg
+  image: /media/images/ampleFDS.png
   description: "A workshop on foreigner-directed speech: acoustic, phonetic, and multimodal perspectives."
   zh:
     title: PaPE 2027 AmpleFDS 工作坊
@@ -38,7 +38,7 @@
   type: Paper
   title: New paper in Second Language Research
   link: https://doi.org/10.1177/02676583261441156
-  image: /media/images/post-bg-rwd.jpg
+  image: /media/images/slr_cover.png
   description: Auditory acuity and L2 input jointly shift Mandarin speakers’ cue-weighting for Spanish lexical stress after study abroad.
   zh:
     title: 新论文发表于 Second Language Research
@@ -48,7 +48,7 @@
   type: Talk
   title: Invited talk at the University of Edinburgh
   link: https://blogs.ed.ac.uk/psycholingcoffee/past-meetings/2025-26/
-  image: /media/images/post-bg-talk.jpg
+  image: /media/images/AV_AT2.jpg
   description: Comparing tactile and visual phonetic training, at the Language, Cognition, and Communication lab.
   zh:
     title: 爱丁堡大学特邀报告
