@@ -42,17 +42,20 @@ journal_articles:
     journal: Language and Speech
     doi: 10.1177/00238309261434241
 
-  - authors: Li, P.*, Martin, C. D., & Kartushina, N.
-    year: 2026
-    title: "Same vowels, distinct sounds: Phonetic differentiation in early Basque-Spanish bilinguals’ vowel production"
-    journal: Linguistic Approaches to Bilingualism
-    doi: 10.1075/lab.25054.li
-
   - authors: Gao, S., Xi, X., & Li, P.*
     year: 2026
     title: "Revisiting the benefits of hand gestures in L2 pronunciation: Generalization effects in multi-session multimodal phonetic training"
     journal: Language and Speech
     doi: 10.1177/00238309251399140
+
+  - authors: Li, P.*, Martin, C. D., & Kartushina, N.
+    year: 2026
+    title: "Same vowels, distinct sounds: Phonetic differentiation in early Basque-Spanish bilinguals’ vowel production"
+    journal: Linguistic Approaches to Bilingualism
+    volume: 16
+    issue: 5
+    pages: 633-647
+    doi: 10.1075/lab.25054.li
 
   - authors: Li, P.*, Ioannidou, I.#, Marazzina, I.#, Pericacho, P.#, Reardon, B.#, & Xing, L.#
     year: 2026
