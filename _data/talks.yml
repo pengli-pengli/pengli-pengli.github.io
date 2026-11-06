@@ -38,11 +38,11 @@ invited:
     event: School of Foreign Languages, Dezhou University
     place: (China)
     zh:
-    authors: 李鹏
-    month: 9月
-    title: "如何做一名成功的二语学习者：学习策略及职业发展"
-    event: 德州学院外国语学院讲座
-    place: 
+      -authors: 李鹏
+        month: 9月
+        title: "如何做一名成功的二语学习者：学习策略及职业发展"
+        event: 德州学院外国语学院讲座
+        place: 
 
   - authors: Li, P.
     year: 2024
@@ -51,11 +51,11 @@ invited:
     event: Department of Hispanic Studies, East China Normal University
     place: Shanghai (China)
     zh:
-    authors: 李鹏
-    month: 6月
-    title: "中国学生的西班牙语词汇重音和句调习得"
-    event: 华东师范大学西班牙语系
-    place: 
+      -authors: 李鹏
+        month: 6月
+        title: "中国学生的西班牙语词汇重音和句调习得"
+        event: 华东师范大学西班牙语系讲座
+        place: 
 
   - authors: Li, P.
     year: 2024
