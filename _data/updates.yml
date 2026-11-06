@@ -27,6 +27,7 @@
 - date: 2026-11-01
   type: Workshop
   title: AmpleFDS workshop at PaPE 2027
+  link: https://labfon.letras.ulisboa.pt/PAPE2027/workshop-amplefds.html
   image: /media/images/post-bg-gesture1.jpg
   description: "A workshop on foreigner-directed speech: acoustic, phonetic, and multimodal perspectives."
   zh:
@@ -46,6 +47,7 @@
 - date: 2025-11-25
   type: Talk
   title: Invited talk at the University of Edinburgh
+  link: https://blogs.ed.ac.uk/psycholingcoffee/past-meetings/2025-26/
   image: /media/images/post-bg-talk.jpg
   description: Comparing tactile and visual phonetic training, at the Language, Cognition, and Communication lab.
   zh:
