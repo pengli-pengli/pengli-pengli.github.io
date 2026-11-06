@@ -1,3 +1,9 @@
+{%- assign lang = page.lang | default: "en" -%}
+{%- assign ref = page.ref | default: "home" -%}
+{%- if lang == "zh" %}{% assign other = "en" %}{% assign home = "/zh/" %}{% assign switch_label = "English" %}{% else %}{% assign other = "zh" %}{% assign home = "/" %}{% assign switch_label = "中文" %}{% endif -%}
+{%- assign switch_url = home -%}
+{%- for p in site.pages %}{% assign plang = p.lang | default: "en" %}{% if p.ref == ref and plang == other %}{% assign switch_url = p.url %}{% endif %}{% endfor -%}
+{%- if switch_url == home %}{% if other == "zh" %}{% assign switch_url = "/zh/" %}{% else %}{% assign switch_url = "/" %}{% endif %}{% endif -%}
 <!-- Navigation -->
 <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
     <div class="container-fluid">
@@ -9,21 +15,25 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+            <a class="navbar-brand" href="{{ home | prepend: site.baseurl }}">{% if lang == "zh" %}李鹏{% else %}{{ site.title }}{% endif %}</a>
+            <a class="lang-switch visible-xs" href="{{ switch_url | prepend: site.baseurl }}" lang="{{ other }}">{{ switch_label }}</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div id="huxblog_navbar">
             <div class="navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li{% if page.url == "/" or page.url == "/index.html" %} class="active"{% endif %}>
-                        <a href="{{ site.baseurl }}/">Home</a>
+                    <li{% if ref == "home" and page.url != "/404.html" %} class="active"{% endif %}>
+                        <a href="{{ home | prepend: site.baseurl }}">{% if lang == "zh" %}首页{% else %}Home{% endif %}</a>
                     </li>
-                    {% for p in site.pages %}{% if p.nav %}
+                    {% for p in site.pages %}{% assign plang = p.lang | default: "en" %}{% if p.nav and plang == lang %}
                     <li{% if p.url == page.url %} class="active"{% endif %}>
                         <a href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
                     </li>
                     {% endif %}{% endfor %}
+                    <li class="lang-item hidden-xs">
+                        <a class="lang-switch" href="{{ switch_url | prepend: site.baseurl }}" lang="{{ other }}">{{ switch_label }}</a>
+                    </li>
                 </ul>
             </div>
         </div>

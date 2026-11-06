@@ -1,0 +1,39 @@
+---
+layout: page
+lang: zh
+ref: publications
+nav: true
+title: "学术发表"
+description: "期刊论文、书籍章节与会议论文"
+header-img: "media/images/post-bg-rwd.jpg"
+---
+<!-- 列表来自 _data/publications.yml，与英文页面共用 -->
+<div class="post-container">
+
+<h3 id="journal-articles">期刊论文</h3>
+<p class="legend">* = 通讯作者；# = 本人指导的学生</p>
+<ul class="refs">
+{%- for e in site.data.publications.journal_articles %}
+{% include pub.html e=e %}
+{%- endfor %}
+</ul>
+
+<h3 id="book-chapters">书籍章节</h3>
+<p class="legend">* = 通讯作者；# = 本人指导的学生</p>
+<ul class="refs">
+{%- for e in site.data.publications.book_chapters %}
+{% include pub.html e=e %}
+{%- endfor %}
+</ul>
+
+<h3 id="proceedings">同行评审会议论文</h3>
+<p class="legend">* = 通讯作者；# = 本人指导的学生</p>
+<ul class="refs">
+{%- for e in site.data.publications.proceedings %}
+{% include pub.html e=e %}
+{%- endfor %}
+</ul>
+
+<p class="note"><b>说明：</b>如需任何文章的作者版本，欢迎来信索取。</p>
+
+</div>

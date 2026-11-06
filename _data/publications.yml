@@ -16,6 +16,10 @@
 #     journal: Linguistic Approaches to Bilingualism
 #     doi: 10.1075/lab.25054.li
 #
+#
+# CHINESE PAGE: citations are shown as they are. To translate an award label, add
+#     zh:
+#       award: 最佳报告奖
 # Put text in "double quotes" when it contains a colon followed by a space, or starts with a symbol.
 
 journal_articles:
@@ -63,6 +67,8 @@ journal_articles:
     doi: 10.3390/languages11030043
     award: Cover story, selected by the editor-in-chief
     award_link: https://www.mdpi.com/2226-471X/11/3
+    zh:
+      award: 主编遴选为当期封面文章
 
   - authors: Li, P.* & Ye, C.
     year: 2025
@@ -146,6 +152,8 @@ journal_articles:
     doi: 10.1017/S0272263120000054
     award: Reported by La Vanguardia
     award_link: https://www.lavanguardia.com/vida/20200416/48558548631/los-gestos-facilitan-la-pronunciacion-de-palabras-de-una-segunda-lengua.html
+    zh:
+      award: 西班牙《先锋报》（La Vanguardia）报道
 
   - authors: Xi, X.*, Li, P., Baills, F. & Prieto, P.
     year: 2020

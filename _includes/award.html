@@ -1,1 +1,3 @@
-{%- if include.e.award %} <span class="award">{% if include.e.award_link %}<a href="{{ include.e.award_link }}">{{ include.e.award }}</a>{% else %}{{ include.e.award }}{% endif %}</span>{% endif -%}
+{%- assign aw = include.e.award -%}
+{%- if page.lang == "zh" and include.e.zh.award %}{% assign aw = include.e.zh.award %}{% endif -%}
+{%- if aw %} <span class="award">{% if include.e.award_link %}<a href="{{ include.e.award_link }}">{{ aw }}</a>{% else %}{{ aw }}{% endif %}</span>{% endif -%}

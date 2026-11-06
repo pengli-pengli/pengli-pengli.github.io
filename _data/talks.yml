@@ -15,6 +15,10 @@
 #     event_link: https://eurosla35.fcsh.unl.pt/program-participation/
 #     place: Lisbon (Portugal)
 #
+#
+# CHINESE PAGE: citations are shown as they are. To translate an award label, add
+#     zh:
+#       award: 最佳报告奖
 # Put text in "double quotes" when it contains a colon followed by a space, or starts with a symbol.
 
 invited:
@@ -39,6 +43,13 @@ invited:
     title: The acquisition of Spanish lexical stress and intonation by Chinese native speakers
     event: Department of Hispanic Studies, East China Normal University
     place: Shanghai (China)
+
+  - authors: Li, P.
+    year: 2024
+    month: April
+    title: "An explicit training technique: Hand gestures for L2 phonetic training"
+    event: Guest lecture for Second Language Acquisition (12865101), Master in Teaching and Learning English as a Foreign/Second Language, University of Rovira i Virgili
+    place: (Spain)
 
   - authors: Li, P.
     year: 2023
@@ -187,6 +198,8 @@ oral:
     place: Prague (Czechia)
     award: Gösta Bruce Scholarship by Gösta Bruce Memorial Fund through IPA
     award_link: https://www.internationalphoneticassociation.org/news/202305/student-and-other-eligible-members-receiving-ipa-student-awards-travel-bursaries-and
+    zh:
+      award: 国际语音协会（IPA）Gösta Bruce 纪念基金奖学金
 
   - authors: Xi, X., Li, P., & Prieto, P.
     year: 2023
@@ -301,6 +314,8 @@ oral:
     place: Lecce (Italy)
     award: Best talk award by LabPhon
     award_link: https://labphon.org/content/best-student-awards-pape-2019
+    zh:
+      award: LabPhon 最佳口头报告奖
 
   - authors: Li, P., Baills, F., & Prieto, P.
     year: 2019
@@ -559,6 +574,8 @@ posters:
     place: Barcelona (Spain)
     award: Best poster award by LabPhon
     award_link: https://pape2021.upf.edu/pape-2021-student-awards/
+    zh:
+      award: LabPhon 最佳海报奖
 
   - authors: Yuan, C., & Li, P.
     year: 2019

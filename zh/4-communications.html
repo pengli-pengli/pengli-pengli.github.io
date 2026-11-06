@@ -1,0 +1,36 @@
+---
+layout: page
+lang: zh
+ref: communications
+nav: true
+title: "学术交流"
+description: "特邀报告、口头报告与海报"
+header-img: "media/images/post-bg-talk.jpg"
+---
+<!-- 列表来自 _data/talks.yml，与英文页面共用 -->
+<div class="post-container">
+
+<h3 id="invited">特邀报告</h3>
+<ul class="refs">
+{%- for e in site.data.talks.invited %}
+{% include talk.html e=e %}
+{%- endfor %}
+</ul>
+
+<h3 id="oral">口头报告</h3>
+<p class="legend"># = 学生作者</p>
+<ul class="refs">
+{%- for e in site.data.talks.oral %}
+{% include talk.html e=e %}
+{%- endfor %}
+</ul>
+
+<h3 id="posters">海报</h3>
+<p class="legend"># = 学生作者</p>
+<ul class="refs">
+{%- for e in site.data.talks.posters %}
+{% include talk.html e=e %}
+{%- endfor %}
+</ul>
+
+</div>

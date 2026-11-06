@@ -240,3 +240,29 @@ footer .copyright { font-size: 14px; color: var(--muted); }
   .updates { grid-template-columns: minmax(0, 1fr); gap: 26px; }
   .update .pic { aspect-ratio: 16 / 9; }
 }
+
+/* language switch (top right) */
+.navbar-custom a.lang-switch {
+  display: inline-block; font-size: 13px; font-weight: 600; letter-spacing: 0.02em; line-height: 1.4;
+  padding: 4px 11px; border: 1px solid rgba(255, 255, 255, 0.75); border-radius: 3px; color: #fff;
+  text-decoration: none; text-transform: none;
+}
+.navbar-custom a.lang-switch:hover, .navbar-custom a.lang-switch:focus { background: rgba(255, 255, 255, 0.15); color: #fff; }
+@media (min-width: 768px) {
+  .navbar-custom .nav li.lang-item { margin-left: 8px; }
+  .navbar-custom .nav li.lang-item a.lang-switch { margin: 14px 15px 0 0; padding: 4px 11px; text-transform: none; letter-spacing: 0.02em; }
+  .navbar-custom .nav li.lang-item a.lang-switch:hover { background: rgba(255, 255, 255, 0.15); }
+  .navbar-custom.is-fixed .nav li.lang-item a.lang-switch { border-color: var(--accent); color: var(--accent); }
+  .navbar-custom.is-fixed .nav li.lang-item a.lang-switch:hover { background: var(--accent-tint); }
+}
+@media (max-width: 767px) {
+  .navbar-custom .navbar-header a.lang-switch { float: right; margin: 12px 4px 0 0; }
+}
+/* Chinese pages: a little more line height */
+html[lang="zh-CN"] body { line-height: 1.75; }
+
+/* education / positions list (Chinese homepage) */
+.post-container ul.cv-list { list-style: none; padding: 0; margin: 0 0 0.6em; }
+.post-container ul.cv-list li { display: grid; grid-template-columns: 6.5em 1fr; gap: 0 0.8em; padding: 0.3em 0; }
+.post-container ul.cv-list .yr { color: var(--muted); font-variant-numeric: tabular-nums; }
+@media (max-width: 480px) { .post-container ul.cv-list li { grid-template-columns: 1fr; } }

@@ -1,2 +1,7 @@
 {%- assign e = include.e -%}
+{%- if page.lang == "zh" and e.zh -%}
+{%- assign z = e.zh -%}
+<li>{{ z.term | default: e.term }}《{{ z.course | default: e.course }}》{% if e.code %}（{{ e.code }}）{% endif %}。{% if z.program %}{{ z.program }}{% else %}{{ z.institution | default: e.institution }}{{ e.program }}{{ e.level }}课程{% endif %}。</li>
+{%- else -%}
 <li>{{ e.term }} <b>{% if e.guest %}“{{ e.course }}”{% else %}{{ e.course }}{% endif %}</b>{% if e.code %} ({{ e.code }}){% endif %}. {% if e.guest_lecture_for %}Guest lecture for <i>{{ e.guest_lecture_for }}</i>. {% endif %}<b>{{ e.level }}</b> in {{ e.program }}. {{ e.institution }}.</li>
+{%- endif -%}

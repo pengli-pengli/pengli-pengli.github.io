@@ -1,5 +1,7 @@
 ---
 layout: page
+lang: en
+ref: home
 description: "Marie Skłodowska-Curie Fellow | Assistant Researcher at University of Lisbon"
 header-img: "media/images/post-bg-gesture1.jpg"
 ---
@@ -18,25 +20,12 @@ header-img: "media/images/post-bg-gesture1.jpg"
 
 <h3 id="updates">Updates</h3>
 <!-- The three newest items from _data/updates.yml -->
-{% assign updates = site.data.updates | sort: "date" | reverse %}
-<div class="updates">
-{%- for u in updates limit: 3 %}
-<article class="update">
-  <div class="pic">
-    {% if u.image %}<img src="{{ u.image | prepend: site.baseurl }}" alt="" loading="lazy">{% endif %}
-    <span class="kind">{{ u.type }}</span>
-    <h4 class="title">{% if u.link %}<a href="{{ u.link }}">{{ u.title }}</a>{% else %}{{ u.title }}{% endif %}</h4>
-  </div>
-  <p class="when">{{ u.date | date: "%b %Y" }}</p>
-  <p class="desc">{{ u.description }}</p>
-</article>
-{%- endfor %}
-</div>
+{% include updates.html %}
 
 <h3 id="toc_1">Find me on</h3>
 {% include social.html labels=true %}
 <p>Feel free to contact me when you have any questions or comments about my research, or if you are interested in collaboration!</p>
 
-<div class="figure"><img src="media/images/praat.png" alt="Waveform, spectrogram and pitch contour of the name Péng Lǐ"/></div>
+<div class="figure"><img src="{{ site.baseurl }}/media/images/praat.png" alt="Waveform, spectrogram and pitch contour of the name Péng Lǐ"/></div>
 
 </div>

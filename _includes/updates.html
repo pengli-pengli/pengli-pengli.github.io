@@ -1,0 +1,20 @@
+{%- assign updates = site.data.updates | sort: "date" | reverse -%}
+<div class="updates">
+{%- for u in updates limit: 3 %}
+{%- assign title = u.title %}{% assign desc = u.description %}{% assign kind = u.type %}{% assign when = u.date | date: "%b %Y" %}
+{%- if page.lang == "zh" %}
+{%- assign when = u.date | date: "%Y年%-m月" %}
+{%- case u.type %}{% when "Talk" %}{% assign kind = "报告" %}{% when "Paper" %}{% assign kind = "论文" %}{% when "Workshop" %}{% assign kind = "工作坊" %}{% when "Position" %}{% assign kind = "职位" %}{% when "Grant" %}{% assign kind = "项目" %}{% when "Award" %}{% assign kind = "奖项" %}{% when "Book" %}{% assign kind = "著作" %}{% endcase %}
+{%- if u.zh %}{% assign title = u.zh.title | default: u.title %}{% assign desc = u.zh.description | default: u.description %}{% assign kind = u.zh.type | default: kind %}{% endif %}
+{%- endif %}
+<article class="update">
+  <div class="pic">
+    {% if u.image %}<img src="{{ u.image | prepend: site.baseurl }}" alt="" loading="lazy">{% endif %}
+    <span class="kind">{{ kind }}</span>
+    <h4 class="title">{% if u.link %}<a href="{{ u.link }}">{{ title }}</a>{% else %}{{ title }}{% endif %}</h4>
+  </div>
+  <p class="when">{{ when }}</p>
+  <p class="desc">{{ desc }}</p>
+</article>
+{%- endfor %}
+</div>

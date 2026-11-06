@@ -9,6 +9,10 @@
 #   image: a photo in media/images/updates/, written as /media/images/updates/name.jpg
 #          (landscape photos work best; without one, a plain colored card is shown)
 #   description: one or two sentences shown under the picture
+#   zh: (optional) Chinese versions for the Chinese page; any field left out falls back to English
+#     title: ...
+#     description: ...
+#     type: ... (Talk, Paper, Workshop, Position, Grant, Award, Book are translated automatically)
 #
 # Example:
 #   - date: 2026-06-24
@@ -25,6 +29,9 @@
   title: AmpleFDS workshop at PaPE 2027
   image: /media/images/post-bg-gesture1.jpg
   description: "A workshop on foreigner-directed speech: acoustic, phonetic, and multimodal perspectives."
+  zh:
+    title: PaPE 2027 AmpleFDS 工作坊
+    description: 关于外国人导向言语的工作坊，涵盖声学、语音和多模态视角。
 
 - date: 2026-04-15
   type: Paper
@@ -32,9 +39,15 @@
   link: https://doi.org/10.1177/02676583261441156
   image: /media/images/post-bg-rwd.jpg
   description: Auditory acuity and L2 input jointly shift Mandarin speakers’ cue-weighting for Spanish lexical stress after study abroad.
+  zh:
+    title: 新论文发表于 Second Language Research
+    description: 留学之后，听觉敏锐度与二语输入共同影响汉语母语者感知西班牙语词重音时的线索权重。
 
 - date: 2025-11-25
   type: Talk
   title: Invited talk at the University of Edinburgh
   image: /media/images/post-bg-talk.jpg
   description: Comparing tactile and visual phonetic training, at the Language, Cognition, and Communication lab.
+  zh:
+    title: 爱丁堡大学特邀报告
+    description: 比较触觉与视觉语音训练的效果，报告于语言、认知与交际实验室。

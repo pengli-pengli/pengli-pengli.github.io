@@ -1,0 +1,34 @@
+---
+layout: page
+lang: zh
+ref: supervision
+nav: true
+title: "论文指导"
+description: "博士、硕士与本科论文指导"
+header-img: "media/images/post-bg-coffee.jpg"
+---
+<!-- 列表来自 _data/supervision.yml，与英文页面共用；条目中有 zh: 部分时显示中文 -->
+<div class="post-container">
+
+<h3 id="phd">博士论文指导</h3>
+<ul class="refs">
+{%- for e in site.data.supervision.phd %}
+{% include thesis.html e=e %}
+{%- endfor %}
+</ul>
+
+<h3 id="master">硕士论文及科研课题指导</h3>
+<ul class="refs">
+{%- for e in site.data.supervision.master %}
+{% include thesis.html e=e %}
+{%- endfor %}
+</ul>
+
+<h3 id="undergraduate">本科论文指导</h3>
+<ul class="refs">
+{%- for e in site.data.supervision.undergraduate %}
+{% include thesis.html e=e %}
+{%- endfor %}
+</ul>
+
+</div>

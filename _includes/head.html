@@ -7,7 +7,7 @@
     <meta name="keywords"  content="{{ site.keyword }}">
     <meta name="theme-color" content="{{ site.chrome-tab-theme-color }}">
     
-    <title>{% if page.title %}{{ page.title }} - {{ site.SEOTitle }}{% else %}{{ site.SEOTitle }}{% endif %}</title>
+    {% if page.lang == "zh" %}{% assign seo = "李鹏" %}{% else %}{% assign seo = site.SEOTitle %}{% endif %}<title>{% if page.title %}{{ page.title }} - {{ seo }}{% else %}{{ seo }}{% endif %}</title>
 
     <!-- Web App Manifest -->
 

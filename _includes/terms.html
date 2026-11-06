@@ -1,6 +1,7 @@
 <ul class="terms">
 {%- for g in include.list %}
-<li><span class="term">{{ g.term }}</span>
-<ul>{% for c in g.courses %}<li>{{ c }}</li>{% endfor %}</ul></li>
+{%- if page.lang == "zh" and g.zh %}{% assign term = g.zh.term | default: g.term %}{% assign courses = g.zh.courses | default: g.courses %}{% else %}{% assign term = g.term %}{% assign courses = g.courses %}{% endif %}
+<li><span class="term">{{ term }}</span>
+<ul>{% for c in courses %}<li>{{ c }}</li>{% endfor %}</ul></li>
 {%- endfor %}
 </ul>

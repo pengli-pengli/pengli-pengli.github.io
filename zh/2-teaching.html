@@ -1,0 +1,29 @@
+---
+layout: page
+lang: zh
+ref: teaching
+nav: true
+title: "所授课程"
+description: "外语教学和语言学类课程"
+header-img: "media/images/post-bg-teaching.jpg"
+---
+<!-- 列表来自 _data/teaching.yml，与英文页面共用；条目中有 zh: 部分时显示中文 -->
+<div class="post-container">
+
+<h3 id="linguistics">语言学、多语研究与认知科学教学</h3>
+<ul class="refs">
+{%- for e in site.data.teaching.linguistics %}
+{% include course.html e=e %}
+{%- endfor %}
+</ul>
+
+<h3 id="japanese">合肥学院（现合肥大学）本科日语教学</h3>
+{% include terms.html list=site.data.teaching.japanese %}
+
+<h3 id="visiting">研究生阶段外聘教学</h3>
+{% include terms.html list=site.data.teaching.visiting %}
+
+<h3 id="language-schools">语言培训机构授课</h3>
+{% include terms.html list=site.data.teaching.language_schools %}
+
+</div>

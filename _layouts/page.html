@@ -8,7 +8,7 @@ layout: default
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
                 <div class="site-heading">
-                    <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+                    <h1>{% if page.title %}{{ page.title }}{% elsif page.heading %}{{ page.heading }}{% else %}{{ site.title }}{% endif %}</h1>
                     <span class="subheading">{{ page.description }}</span>
                 </div>
             </div>
@@ -28,10 +28,15 @@ layout: default
                 <hr class="hidden-sm hidden-xs">
                 <div class="short-about">
                     {% if site.sidebar-avatar %}
-                    <img src="{{ site.sidebar-avatar }}" alt="Peng Li"/>
+                    <img src="{{ site.sidebar-avatar }}" alt="{% if page.lang == "zh" %}李鹏{% else %}Peng Li{% endif %}"/>
                     {% endif %}
+                    {% if page.lang == "zh" %}
+                    <p class="name">李鹏</p>
+                    <p class="role">玛丽居里学者</p>
+                    {% else %}
                     <p class="name">Peng Li</p>
                     <p class="role">Marie Skłodowska-Curie Fellow</p>
+                    {% endif %}
                     {% if site.sidebar-about-description %}
                     <address>{{ site.sidebar-about-description }}</address>
                     {% endif %}

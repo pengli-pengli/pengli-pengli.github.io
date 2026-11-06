@@ -1,188 +1,294 @@
 # TEACHING
-# Sections: linguistics, japanese, visiting, language_schools. Newest first.
+# Sections: linguistics, japanese (Hefei University), visiting, language_schools. Newest first.
 #
 # "linguistics" entries:
-#   - term: 2025 Fall semester
+#   - term: 2025-2026 Fall semester
 #     course: Quantitative methods
+#     code: (optional, e.g. MULTI4150)
 #     level: Master
 #     program: Cognitive Neuroscience of Language
 #     institution: BCBL-University of the Basque Country, Spain
-#   Optional: code (e.g. MULTI4150); for a guest lecture add guest: true and guest_lecture_for
 #
-# Other sections group courses by term; add a line under "courses", or a new term block:
-#   - term: 2017 Spring semester
+# Other sections group courses by academic year; add a line under "courses", or a new block:
+#   - term: 2016-2017 academic year
 #     courses:
-#       - Japanese Linguistics (32h), Japanese BA program.
+#       - Japanese Reading 1 (1231134), 2nd-year Japanese BA course, 32 h
+#
+# CHINESE PAGE: entries show in English on the Chinese page unless they have a "zh:" block.
+# Inside it, give only the fields you want in Chinese; the rest fall back to English.
+# Fall semester = 第一学期, Spring semester = 第二学期.
+# Example for a "linguistics" entry (the course name is put in 《》 automatically):
+#     zh:
+#       term: 2025-2026学年第一学期
+#       course: 量化研究方法
+#       program: 西班牙巴斯克大学和巴斯克认知、脑与语言研究中心（BCBL）联合开设的语言认知神经科学硕士学位课程
+# Example for a block in the other sections:
+#     zh:
+#       term: 2016-2017学年
+#       courses:
+#         - 日语阅读1（1231134），日语专业二年级课程，32学时
 #
 # Put text in "double quotes" when it contains a colon followed by a space, or starts with a symbol.
 
 linguistics:
 
-  - term: 2025 Fall semester
+  - term: 2025-2026 Fall semester
     course: Quantitative methods
     level: Master
     program: Cognitive Neuroscience of Language
     institution: BCBL-University of the Basque Country, Spain
+    zh:
+      term: 2025-2026学年第一学期
+      course: 量化研究方法
+      program: 西班牙巴斯克大学和巴斯克认知、脑与语言研究中心（BCBL）联合开设的语言认知神经科学硕士学位课程
 
-  - term: 2025 Spring semester
+  - term: 2024-2025 Spring semester
     course: Advanced Statistics
     level: Ph.D.
     program: Cognitive Neuroscience
     institution: BCBL-University of the Basque Country, Spain
+    zh:
+      term: 2024-2025学年第二学期
+      course: 高级统计学
+      program: 西班牙巴斯克大学和巴斯克认知、脑与语言研究中心（BCBL）联合开设的认知神经科学博士学位课程
 
-  - term: 2024 Fall semester
+  - term: 2024-2025 Fall semester
     course: Quantitative methods
     level: Master
     program: Cognitive Neuroscience of Language
     institution: University of the Basque Country, Spain
+    zh:
+      term: 2024-2025学年第一学期
+      course: 量化研究方法
+      program: 西班牙巴斯克大学语言认知神经科学硕士学位课程
 
-  - term: 2024 Spring semester
-    course: "An explicit training technique: Hand gestures for L2 phonetic training"
-    guest: true
-    guest_lecture_for: Second Language Acquisition (12865101)
-    level: Master
-    program: Teaching and Learning English as a Foreign/Second Language
-    institution: University of Rovira i Virgili, Spain
-
-  - term: 2023 Spring semester
+  - term: 2022-2023 Spring semester
     course: Project-based Research in Multilingualism
     code: MULTI4150
     level: Master
     program: Multilingualism
     institution: University of Oslo, Norway
+    zh:
+      term: 2022-2023学年第二学期
+      course: 多语制研究课题实践
+      program: 挪威奥斯陆大学多语研究硕士课程
 
-  - term: 2023 Spring semester
-    course: Speaking
-    guest: true
-    guest_lecture_for: Psycholinguistics & Sociolinguistics (LING1113)
+  - term: 2022-2023 Spring semester
+    course: Psycholinguistics & Sociolinguistics
+    code: LING1113
     level: BA
     program: Linguistics
     institution: University of Oslo, Norway
+    zh:
+      term: 2022-2023学年第二学期
+      course: 心理语言学与社会语言学
+      program: 挪威奥斯陆大学语言学本科课程
 
   - term: 2022-2023 Fall semester
-    course: "Accent: Comprehension & Production"
-    guest: true
-    guest_lecture_for: Multilingualism (LING1109)
+    course: Multilingualism
+    code: LING1109
     level: BA
     program: Linguistics
     institution: University of Oslo, Norway
+    zh:
+      term: 2022-2023学年第一学期
+      course: 多语制
+      program: 挪威奥斯陆大学语言学本科课程
 
 japanese:
 
-  - term: 2017 Spring semester
+  - term: 2016-2017 academic year
     courses:
-      - Japanese Linguistics (32h), Japanese BA program.
-      - Japanese Reading II (32h), Japanese BA program.
-      - Japanese as Second Foreign Language II (64h), English BA program.
+      - Japanese Reading 1 (1231134), 2nd-year Japanese BA course, 32 h
+      - Japanese Reading 2 (1231135), 2nd-year Japanese BA course, 32 h
+      - Introduction to Japanese Linguistics (1235094), 3rd- and 4th-year Japanese BA courses, 32 h each
+      - "Second Foreign Language: Japanese 1 (1231149), 3rd-year English BA course, 64 h"
+      - "Second Foreign Language: Japanese 2 (1231248), 3rd-year English BA course, 64 h"
+      - "Second Foreign Language: Japanese 3 (1231249), 4th-year English BA course, 64 h"
+    zh:
+      term: 2016-2017学年
+      courses:
+        - 日语阅读1（1231134），日语专业二年级课程，32学时
+        - 日语阅读2（1231135），日语专业二年级课程，32学时
+        - 日语语言学概论（1235094），日语专业三、四年级课程，各32学时
+        - 二外（日）-1（1231149），英语专业三年级课程，64学时
+        - 二外（日）-2（1231248），英语专业三年级课程，64学时
+        - 二外（日）-3（1231249），英语专业四年级课程，64学时
 
-  - term: 2016 Fall semester
+  - term: 2015-2016 academic year
     courses:
-      - A Brief Introduction to Japanese (16h), Optional course to the whole university.
-      - Japanese Linguistics (32h), Japanese BA program.
-      - Japanese as Second Foreign Language III (64h), English BA program.
-      - Japanese as Second Foreign Language I (64h), English BA program.
-      - Japanese Reading III (32h), Japanese BA program.
+      - Japanese Reading 1 (1231134), 2nd-year Japanese BA course, 32 h
+      - Japanese Reading 2 (1231135), 2nd-year Japanese BA course, 32 h
+      - Japanese Reading 3 (1231136), 3rd-year Japanese BA course, 32 h
+      - Introduction to Japanese Linguistics (1235094), 4th-year Japanese BA course, 32 h
+      - "Second Foreign Language: Japanese 1 (1231149), 3rd-year English BA course, 64 h"
+      - "Second Foreign Language: Japanese 2 (1231248), 3rd-year English BA course, 64 h"
+    zh:
+      term: 2015-2016学年
+      courses:
+        - 日语阅读1（1231134），日语专业二年级课程，32学时
+        - 日语阅读2（1231135），日语专业二年级课程，32学时
+        - 日语阅读3（1231136），日语专业三年级课程，32学时
+        - 日语语言学概论（1235094），日语专业四年级课程，32学时
+        - 二外（日）-1（1231149），英语专业三年级课程，64学时
+        - 二外（日）-2（1231248），英语专业三年级课程，64学时
 
-  - term: 2016 Spring semester
+  - term: 2014-2015 academic year
     courses:
-      - Japanese as Second Foreign Language II (64h), English BA program.
-      - Japanese Reading II (32h), Japanese BA program.
+      - "Basic Japanese: An Integrated Course 2 (1231123), 1st-year Japanese BA course, 144 h"
+      - Japanese Reading 1 (1231134), 2nd-year Japanese BA course, 32 h
+      - Japanese Reading 3 (1231136), 3rd-year Japanese BA course, 32 h
+      - Introduction to Japanese Linguistics (1235094), 4th-year Japanese BA course, 32 h
+      - "Second Foreign Language: Japanese 1 (1231149), 3rd-year English BA course, 64 h"
+    zh:
+      term: 2014-2015学年
+      courses:
+        - 基础日语2（1231123），日语专业一年级课程，144学时
+        - 日语阅读1（1231134），日语专业二年级课程，32学时
+        - 日语阅读3（1231136），日语专业三年级课程，32学时
+        - 日语语言学概论（1235094），日语专业四年级课程，32学时
+        - 二外（日）-1（1231149），英语专业三年级课程，64学时
 
-  - term: 2015 Fall semester
+  - term: 2013-2014 academic year
     courses:
-      - Japanese Linguistics (32h), Japanese BA program.
-      - Japanese as Second Foreign Language I (64h), English BA program.
-      - Japanese Reading III (32h), Japanese BA program.
-      - Japanese Reading I (32h), Japanese BA program.
-
-  - term: 2015 Spring semester
-    courses:
-      - "Basic Japanese: An Integrated Course II (144h), Japanese BA program."
-
-  - term: 2014 Fall semester
-    courses:
-      - Japanese Linguistics (32h), Japanese BA program.
-      - Japanese as Second Foreign Language I (64h), English BA program.
-      - Japanese Reading III (32h), Japanese BA program.
-      - Japanese Reading I (32h), Japanese BA program.
-
-  - term: 2014 Spring semester
-    courses:
-      - "Basic Japanese: An Integrated Course II (144h), Japanese BA program."
-      - Business Japanese Writing (32h), Japanese BA program.
-
-  - term: 2013 Fall semester
-    courses:
-      - Business Japanese Writing (32h), Japanese BA program.
-      - Japanese as Second Foreign Language I (64h), English BA program.
-      - Japanese Reading I (32h), Japanese BA program.
-      - Japanese Listening I (20h), Japanese BA program.
+      - Japanese Listening 1 (1231126), 1st-year Japanese BA course, 20 h
+      - "Basic Japanese: An Integrated Course 2 (1231123), 1st-year Japanese BA course, 144 h"
+      - Japanese Reading 1 (1231134), 2nd-year Japanese BA course, 32 h
+      - Practical Japanese Writing (1235091), 3rd- and 4th-year Japanese BA courses, 32 h each
+      - "Second Foreign Language: Japanese 1 (1231149), 3rd-year English BA course, 64 h"
+    zh:
+      term: 2013-2014学年
+      courses:
+        - 日语听力1（1231126），日语专业一年级课程，20学时
+        - 基础日语2（1231123），日语专业一年级课程，144学时
+        - 日语阅读1（1231134），日语专业二年级课程，32学时
+        - 日语应用文写作（1235091），日语专业三、四年级课程，各32学时
+        - 二外（日）-1（1231149），英语专业三年级课程，64学时
 
 visiting:
 
-  - term: "2013"
+  - term: 2012-2013 academic year
     courses:
-      - Basic Japanese II (64h), Tianjin Normal University, China.
+      - Basic Japanese 1, elective course for Computer Science BA students, 64 h, Tianjin Normal University, China
+      - Basic Japanese 2, elective course for Computer Science BA students, 64 h, Tianjin Normal University, China
+    zh:
+      term: 2012-2013学年
+      courses:
+        - 基础日语1，计算机科学专业本科选修课，64学时，天津师范大学
+        - 基础日语2，计算机科学专业本科选修课，64学时，天津师范大学
 
-  - term: "2012"
+  - term: 2011-2012 academic year
     courses:
-      - Basic Japanese I (64h), Tianjin Normal University, China.
-      - Japanese Reading II (64h), Tianjin Foreign Studies University, China.
-      - Basic Japanese II (64h), Tianjin Normal University, China.
-
-  - term: "2011"
-    courses:
-      - Basic Japanese I (64h), Tianjin Normal University, China.
+      - Basic Japanese 1, elective course for Computer Science BA students, 64 h, Tianjin Normal University, China
+      - Basic Japanese 2, elective course for Computer Science BA students, 64 h, Tianjin Normal University, China
+      - Japanese Reading 2, continuing education program in Japanese, 64 h, Tianjin Foreign Studies University, China
+    zh:
+      term: 2011-2012学年
+      courses:
+        - 基础日语1，计算机科学专业本科选修课，64学时，天津师范大学
+        - 基础日语2，计算机科学专业本科选修课，64学时，天津师范大学
+        - 日语阅读2，日语继续教育课程，64学时，天津外国语大学
 
 language_schools:
 
-  - term: "2021"
+  - term: 2021
     courses:
       - Chinese 9 (64h), Hanlin Chinese Language School, Barcelona, Spain.
       - Chinese 8 (64h), Hanlin Chinese Language School, Online.
+    zh:
+      term: 2021年
+      courses:
+        - 汉语9（64学时），西班牙巴塞罗那翰林中文学校
+        - 汉语8（64学时），西班牙巴塞罗那翰林中文学校，线上授课
 
-  - term: "2020"
+  - term: 2020
     courses:
       - Chinese 7 (64h), Hanlin Chinese Language School, Online.
       - Chinese 6 (64h), Hanlin Chinese Language School, Online.
+    zh:
+      term: 2020年
+      courses:
+        - 汉语7（64学时），西班牙巴塞罗那翰林中文学校，线上授课
+        - 汉语6（64学时），西班牙巴塞罗那翰林中文学校，线上授课
 
-  - term: "2019"
+  - term: 2019
     courses:
       - Chinese 5 (64h), Hanlin Chinese Language School, Barcelona, Spain.
       - Chinese 4 (64h), Hanlin Chinese Language School, Barcelona, Spain.
+    zh:
+      term: 2019年
+      courses:
+        - 汉语5（64学时），西班牙巴塞罗那翰林中文学校
+        - 汉语4（64学时），西班牙巴塞罗那翰林中文学校
 
-  - term: "2018"
+  - term: 2018
     courses:
       - Chinese 3 (64h), Hanlin Chinese Language School, Barcelona, Spain.
+    zh:
+      term: 2018年
+      courses:
+        - 汉语3（64学时），西班牙巴塞罗那翰林中文学校
 
-  - term: "2017"
+  - term: 2017
     courses:
       - Japanese Level 5 (60h), Youxiangxue Education, Hefei, China.
       - Japanese Level 4 (60h), Youxiangxue Education, Hefei, China.
       - Spanish Level 3 (90h), Youxiangxue Education, Hefei, China.
       - Spanish Level 2 (90h), Youxiangxue Education, Hefei, China.
+    zh:
+      term: 2017年
+      courses:
+        - 日语5（60学时），合肥优享学教育
+        - 日语4（60学时），合肥优享学教育
+        - 西班牙语3（90学时），合肥优享学教育
+        - 西班牙语2（90学时），合肥优享学教育
 
-  - term: "2016"
+  - term: 2016
     courses:
       - Japanese Level 5 (60h), Youxiangxue Education, Hefei, China.
       - Japanese Level 4 (60h), Youxiangxue Education, Hefei, China.
       - Spanish Level 3 (90h), Youxiangxue Education, Hefei, China.
       - Spanish Level 2 (90h), Youxiangxue Education, Hefei, China.
+    zh:
+      term: 2016年
+      courses:
+        - 日语5（60学时），合肥优享学教育
+        - 日语4（60学时），合肥优享学教育
+        - 西班牙语3（90学时），合肥优享学教育
+        - 西班牙语2（90学时），合肥优享学教育
 
-  - term: "2015"
+  - term: 2015
     courses:
       - Japanese Level 4 (60h), Youxiangxue Education, Hefei, China.
       - Japanese Level 3 (60h), Youxiangxue Education, Hefei, China.
       - Spanish Level 2 (90h), Youxiangxue Education, Hefei, China.
       - Spanish Level 1 (45h), Youxiangxue Education, Hefei, China.
+    zh:
+      term: 2015年
+      courses:
+        - 日语4（60学时），合肥优享学教育
+        - 日语3（60学时），合肥优享学教育
+        - 西班牙语2（90学时），合肥优享学教育
+        - 西班牙语1（45学时），合肥优享学教育
 
-  - term: "2014"
+  - term: 2014
     courses:
       - Japanese Level 4 (60h), Youxiangxue Education, Hefei, China.
       - Spanish Level 2 (90h), Youxiangxue Education, Hefei, China.
       - Spanish Level 1 (45h), Youxiangxue Education, Hefei, China.
+    zh:
+      term: 2014年
+      courses:
+        - 日语4（60学时），合肥优享学教育
+        - 西班牙语2（90学时），合肥优享学教育
+        - 西班牙语1（45学时），合肥优享学教育
 
-  - term: "2013"
+  - term: 2013
     courses:
       - Japanese Level 4 (60h), Youxiangxue Education, Hefei, China.
       - Spanish Level 1 (45h), Youxiangxue Education, Hefei, China.
+    zh:
+      term: 2013年
+      courses:
+        - 日语4（60学时），合肥优享学教育
+        - 西班牙语1（45学时），合肥优享学教育
