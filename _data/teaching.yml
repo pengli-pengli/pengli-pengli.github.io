@@ -199,17 +199,17 @@ language_schools:
       term: 2021年
       courses:
         - 汉语9（64学时），西班牙巴塞罗那翰林中文学校
-        - 汉语8（64学时），西班牙巴塞罗那翰林中文学校，线上授课
+        - 汉语8（64学时），西班牙巴塞罗那翰林中文学校
 
   - term: 2020
     courses:
-      - Chinese 7 (64h), Hanlin Chinese Language School, Online.
-      - Chinese 6 (64h), Hanlin Chinese Language School, Online.
+      - Chinese 7 (64h), Hanlin Chinese Language School, Barcelona, Spain.
+      - Chinese 6 (64h), Hanlin Chinese Language School, Barcelona, Spain.
     zh:
       term: 2020年
       courses:
-        - 汉语7（64学时），西班牙巴塞罗那翰林中文学校，线上授课
-        - 汉语6（64学时），西班牙巴塞罗那翰林中文学校，线上授课
+        - 汉语7（64学时），西班牙巴塞罗那翰林中文学校
+        - 汉语6（64学时），西班牙巴塞罗那翰林中文学校
 
   - term: 2019
     courses:
