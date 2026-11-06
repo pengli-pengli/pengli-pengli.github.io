@@ -24,15 +24,15 @@
 #
 # Put text in "double quotes" when it contains a colon followed by a space, or starts with a symbol.
 
-- date: 2026-11-01
+- date: 2027-06-17
   type: Workshop
   title: AmpleFDS workshop at PaPE 2027
   link: https://labfon.letras.ulisboa.pt/PAPE2027/workshop-amplefds.html
   image: /media/images/ampleFDS.png
-  description: "A workshop on foreigner-directed speech: acoustic, phonetic, and multimodal perspectives."
+  description: "Co-organizing a workshop on foreigner-directed speech: acoustic, phonetic, and multimodal perspectives with Prof. Clara Martin."
   zh:
     title: PaPE 2027 AmpleFDS 工作坊
-    description: 关于外国人导向言语的工作坊，涵盖声学、语音和多模态视角。
+    description: 与Clara Martin教授联合举办关于外国人导向言语的工作坊，涵盖声学、语音和多模态视角。
 
 - date: 2026-04-15
   type: Paper
