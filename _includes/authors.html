@@ -1,1 +1,1 @@
-{%- assign a = include.a | replace: "Li, P.*", "@ME*@" | replace: "Li, P.", "<b>Li, P.</b>" | replace: "@ME*@", "<b>Li, P.*</b>" -%}{{ a }}
+{%- assign a = include.a | replace: "Li, P.*", "@ME*@" | replace: "Li, P.", "<b>Li, P.</b>" | replace: "@ME*@", "<b>Li, P.*</b>" | replace: "李鹏", "<b>李鹏</b>" -%}{{ a }}

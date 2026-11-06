@@ -16,7 +16,15 @@
 #     place: Lisbon (Portugal)
 #
 #
-# CHINESE PAGE: citations are shown as they are. To translate an award label, add
+# CHINESE PAGE: entries show in English unless they have a "zh:" block with a Chinese title.
+# Example (indent the zh fields by two more spaces than "zh:", no "-" in front):
+#     zh:
+#       authors: 李鹏
+#       month: 9月
+#       title: 如何做一名成功的二语学习者：学习策略及职业发展
+#       event: 德州学院外国语学院讲座
+#       place: 上海   (optional; only shown if given here)
+# To translate only an award label, add just:
 #     zh:
 #       award: 最佳报告奖
 # Put text in "double quotes" when it contains a colon followed by a space, or starts with a symbol.
@@ -38,11 +46,10 @@ invited:
     event: School of Foreign Languages, Dezhou University
     place: (China)
     zh:
-      -authors: 李鹏
-        month: 9月
-        title: "如何做一名成功的二语学习者：学习策略及职业发展"
-        event: 德州学院外国语学院讲座
-        place: 
+      authors: 李鹏
+      month: 9月
+      title: "如何做一名成功的二语学习者：学习策略及职业发展"
+      event: 德州学院外国语学院讲座
 
   - authors: Li, P.
     year: 2024
@@ -51,11 +58,10 @@ invited:
     event: Department of Hispanic Studies, East China Normal University
     place: Shanghai (China)
     zh:
-      -authors: 李鹏
-        month: 6月
-        title: "中国学生的西班牙语词汇重音和句调习得"
-        event: 华东师范大学西班牙语系讲座
-        place: 
+      authors: 李鹏
+      month: 6月
+      title: "中国学生的西班牙语词汇重音和句调习得"
+      event: 华东师范大学西班牙语系讲座
 
   - authors: Li, P.
     year: 2024
