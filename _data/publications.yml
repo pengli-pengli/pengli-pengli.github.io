@@ -24,11 +24,17 @@
 
 journal_articles:
 
-  - authors: Li, P., Xi, X.*, & Martin, C. D.
+  - authors: Yarovich, A.#, Xi, X., Martin, C. D., & Li, P.*
     year: 2026
     title: "Auditory acuity and L2 input jointly shift suprasegmental cue-weighting after study abroad: Mandarin speakers’ perception of Spanish lexical stress"
     journal: Second Language Research
     doi: 10.1177/02676583261441156
+    
+  - authors: Li, P., Xi, X.*, & Martin, C. D.
+    year: 2026
+    title: "Not all learners benefit equally: Initial comprehensibility moderates the effect of L2 use on Mandarin speakers’ Spanish comprehensibility after study abroad"
+    journal: Journal of Second Language Pronunciation
+    doi: 10.1075/jslp.26049.yar
 
   - authors: Xi, X., Shea, C., & Li, P.*
     year: 2026
