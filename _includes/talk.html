@@ -4,7 +4,7 @@
 {%- assign mo = z.month -%}
 {%- unless mo %}{% case e.month %}{% when "January" %}{% assign mo = "1月" %}{% when "February" %}{% assign mo = "2月" %}{% when "March" %}{% assign mo = "3月" %}{% when "April" %}{% assign mo = "4月" %}{% when "May" %}{% assign mo = "5月" %}{% when "June" %}{% assign mo = "6月" %}{% when "July" %}{% assign mo = "7月" %}{% when "August" %}{% assign mo = "8月" %}{% when "September" %}{% assign mo = "9月" %}{% when "October" %}{% assign mo = "10月" %}{% when "November" %}{% assign mo = "11月" %}{% when "December" %}{% assign mo = "12月" %}{% endcase %}{% endunless -%}
 {%- assign ev = z.event | default: e.event -%}{%- assign au = z.authors | default: e.authors -%}
-<li>{% include authors.html a=au %}（{{ e.year }}年{{ mo }}）。《{{ z.title }}》。{% if e.event_link %}<a href="{{ e.event_link }}">{{ ev }}</a>{% else %}{{ ev }}{% endif %}{% if z.place %}，{{ z.place }}{% endif %}。
+<li>{% include authors.html a=au %}（{{ e.year }}年{{ mo }}）“{{ z.title }}”，{% if e.event_link %}<a href="{{ e.event_link }}">{{ ev }}</a>{% else %}{{ ev }}{% endif %}{% if z.place %}，{{ z.place }}{% endif %}
 {%- include award.html e=e %}</li>
 {%- else -%}
 <li>{% include authors.html a=e.authors %} ({{ e.year }}{% if e.month %}, {{ e.month }}{% endif %}). {% include title.html t=e.title %} <i>{% if e.event_link %}<a href="{{ e.event_link }}">{{ e.event }}</a>{% else %}{{ e.event }}{% endif %}</i>

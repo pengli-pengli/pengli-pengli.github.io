@@ -2,7 +2,7 @@
 {%- if page.lang == "zh" and e.zh -%}
 {%- assign z = e.zh -%}
 {%- if z.title %}{% if z.title_lang == "ja" %}{% capture t %}『{{ z.title }}』{% endcapture %}{% else %}{% capture t %}《{{ z.title }}》{% endcapture %}{% endif %}{% else %}{% capture t %}“{{ e.title }}”{% endcapture %}{% endif -%}
-<li>{{ z.student | default: e.student }}（{{ z.year | default: e.year }}）{{ t }}{% if z.title_translation %}（{{ z.title_translation }}）{% endif %}，{{ z.institution | default: e.institution }}<b>{{ z.type | default: e.type }}</b>。{% if e.status or z.status %} <span class="status">{{ z.status | default: e.status }}</span>{% endif %}</li>
+<li>{{ z.student | default: e.student }}（{{ z.year | default: e.year }}）{{ t }}{% if z.title_translation %}（{{ z.title_translation }}）{% endif %}，{{ z.institution | default: e.institution }}<b>{{ z.type | default: e.type }}</b>{% if e.status or z.status %} <span class="status">{{ z.status | default: e.status }}</span>{% endif %}</li>
 {%- else -%}
 <li>{{ e.student }}. ({{ e.year }}). “{{ e.title }}{% if e.title_original %}/<span class="orig">{{ e.title_original }}</span>{% endif %}”. <b>{{ e.type }}</b> at {{ e.institution }}.{% if e.status %} <span class="status">{{ e.status }}</span>{% endif %}</li>
 {%- endif -%}
