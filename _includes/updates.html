@@ -9,7 +9,7 @@
 {%- endif %}
 <article class="update">
   <div class="pic">
-    {% if u.image %}<img src="{{ u.image | prepend: site.baseurl }}" alt="" loading="lazy">{% endif %}
+    {% if u.image %}<img src="{{ u.image | prepend: site.baseurl }}?v={{ site.time | date: "%s" }}" alt="" loading="lazy">{% endif %}
     <span class="kind">{{ kind }}</span>
     <h4 class="title">{% if u.link %}<a href="{{ u.link }}">{{ title }}</a>{% else %}{{ title }}{% endif %}</h4>
   </div>
