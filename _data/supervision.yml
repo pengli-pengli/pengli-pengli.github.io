@@ -33,7 +33,7 @@ phd:
 
   - student: Huiyi Hu
     year: expected 2029
-    title: "Foreign Directed Speech: Didactic function and impact"
+    title: "Foreigner-Directed Speech: Didactic function and impact"
     type: PhD dissertation
     institution: University of the Basque Country
     zh:
@@ -44,7 +44,7 @@ phd:
 
   - student: Silvia Yang
     year: expected 2026
-    title: Auditory acuity influence in speech sound production learning
+    title: "Individual Differences in Auditory Processing and Second Language Speech Learning: Evidence from Production and Perception in Adult and Child Learners"
     type: PhD dissertation
     institution: University of the Basque Country
     zh:
@@ -54,9 +54,9 @@ phd:
 
 master:
 
-  - student: Alexandra Drogata
+  - student: Alexandra Dragota
     year: 2026
-    title: Auditory processing and high variability phonetic training
+    title: "Minding your p’s (and b’s): Auditory processing abilities and the effects of phonetic training in L2 English stops"
     type: Master thesis
     institution: University of Trento, Italy
     zh:
@@ -65,7 +65,7 @@ master:
 
   - student: Aliona Yarovich
     year: 2025
-    title: "Improving comprehensibility and accentedness in spontaneous speech: The role of L2 use in a study abroad program"
+    title: "Study abroad immersion effect on L2 comprehensibility and accentedness: Chinese learners of Spanish"
     type: MSc thesis
     institution: University of the Basque Country, Spain
     zh:
