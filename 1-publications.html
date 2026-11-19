@@ -10,6 +10,9 @@ header-img: "media/images/post-bg-rwd.jpg"
 <!-- The lists come from _data/publications.yml. Edit that file to add or change items. -->
 <div class="post-container">
 
+{% include topic-filter.html %}
+
+<section class="pub-group">
 <h3 id="journal-articles">Journal articles</h3>
 <p class="legend">* = corresponding author; # = student under my supervision</p>
 <ul class="refs">
@@ -17,7 +20,9 @@ header-img: "media/images/post-bg-rwd.jpg"
 {% include pub.html e=e %}
 {%- endfor %}
 </ul>
+</section>
 
+<section class="pub-group">
 <h3 id="book-chapters">Book chapters</h3>
 <p class="legend">* = corresponding author; # = student under my supervision</p>
 <ul class="refs">
@@ -25,7 +30,9 @@ header-img: "media/images/post-bg-rwd.jpg"
 {% include pub.html e=e %}
 {%- endfor %}
 </ul>
+</section>
 
+<section class="pub-group">
 <h3 id="proceedings">Peer-reviewed proceedings</h3>
 <p class="legend">* = corresponding author; # = student under my supervision</p>
 <ul class="refs">
@@ -33,6 +40,7 @@ header-img: "media/images/post-bg-rwd.jpg"
 {% include pub.html e=e %}
 {%- endfor %}
 </ul>
+</section>
 
 <p class="note"><b>Note:</b> Please write to me if you need an author’s copy of any article that you are interested in.</p>
 

@@ -9,11 +9,16 @@
 # Optional: doi_link (if the DOI should open another page), pdf + pdf_label,
 #           isbn + isbn_link, award + award_link
 #
+# Topics (for the filter buttons): add a line such as
+#     topics: [multimodality, individual]
+# Keys: multimodality, development, individual, bilingualism, prosody (names are in _data/topics.yml)
+#
 # Example:
 #   - authors: Li, P.*, Martin, C. D., & Kartushina, N.
 #     year: 2026
 #     title: "Same vowels, distinct sounds: Phonetic differentiation in early Basque-Spanish bilinguals’ vowel production"
 #     journal: Linguistic Approaches to Bilingualism
+#     topics: [bilingualism]
 #     doi: 10.1075/lab.25054.li
 #
 #
@@ -27,36 +32,42 @@ journal_articles:
   - authors: Li, P., Xi, X.*, & Martin, C. D.
     year: 2026
     title: "The interaction of auditory acuity and L2 input in suprasegmental cue-weighting shifts after study abroad: Mandarin speakers’ perception of Spanish lexical stress"
+    topics: [development, individual]
     journal: Second Language Research
     doi: 10.1177/02676583261441156
     
   - authors: Feng, Q., Xi, X., & Li, P.*
     year: 2026
     title: "Seeing perception, touching production: Assessing the effects of audio-visual and audio-tactile training on Mandarin learners’ acquisition of Italian stops"
+    topics: [multimodality]
     journal: System
     doi: 10.1016/j.system.2026.104198
     
   - authors: Yarovich, A.#, Xi, X., Martin, C. D., & Li, P.*
     year: 2026
     title: "Not all learners benefit equally: Initial comprehensibility moderates the effect of L2 use on Mandarin speakers’ Spanish comprehensibility after study abroad"
+    topics: [development]
     journal: Journal of Second Language Pronunciation
     doi: 10.1075/jslp.26049.yar
 
   - authors: Xi, X., Shea, C., & Li, P.*
     year: 2026
     title: "Perceptual development of second language sound categories in a study abroad program: L1 Mandarin speakers in Spain"
+    topics: [development]
     journal: Language and Speech
     doi: 10.1177/00238309261434241
 
   - authors: Gao, S., Xi, X., & Li, P.*
     year: 2026
     title: "Revisiting the benefits of hand gestures in L2 pronunciation: Generalization effects in multi-session multimodal phonetic training"
+    topics: [multimodality]
     journal: Language and Speech
     doi: 10.1177/00238309251399140
 
   - authors: Li, P.*, Martin, C. D., & Kartushina, N.
     year: 2026
     title: "Same vowels, distinct sounds: Phonetic differentiation in early Basque-Spanish bilinguals’ vowel production"
+    topics: [bilingualism]
     journal: Linguistic Approaches to Bilingualism
     volume: 16
     issue: 5
@@ -66,6 +77,7 @@ journal_articles:
   - authors: Li, P.*, Ioannidou, I.#, Marazzina, I.#, Pericacho, P.#, Reardon, B.#, & Xing, L.#
     year: 2026
     title: "The predictive roles of musical aptitude, auditory abilities, and working memory in L2 speech imitation: Differences between familiar and unfamiliar languages"
+    topics: [individual]
     journal: Vigo International Journal of Applied Linguistics
     volume: 23
     pages: 115-144
@@ -75,6 +87,7 @@ journal_articles:
   - authors: Xi, X., & Li, P.*
     year: 2026
     title: A review of the effectiveness of hand gestures in second language phonetic training
+    topics: [multimodality]
     journal: Languages
     volume: 11
     issue: 3
@@ -88,6 +101,7 @@ journal_articles:
   - authors: Li, P.* & Ye, C.
     year: 2025
     title: "Facilitative L1-transfer in nonnative sound production of monolingual and bilingual learners: Phonological overlap and L2 experience"
+    topics: [bilingualism]
     journal: Journal of Second Language Studies
     volume: 8
     issue: 1
@@ -97,6 +111,7 @@ journal_articles:
   - authors: Li, P.* & Xi, X.
     year: 2024
     title: Nuclear contours of Spanish statements and questions produced by Mandarin speakers with advanced Spanish proficiency
+    topics: [development, prosody]
     journal: Phonica
     volume: 20
     pages: 1-26
@@ -106,6 +121,7 @@ journal_articles:
   - authors: Xi, X.*, Li, P., & Prieto, P.
     year: 2024
     title: "Improving L2 vowel production with hand gestures encoding visible articulation: Evidence from picture-naming and paragraph-reading tasks"
+    topics: [multimodality]
     journal: Language Learning
     volume: 74
     issue: 4
@@ -115,6 +131,7 @@ journal_articles:
   - authors: Li, P.*, Zhang, Y., Baills, F., & Prieto, P.
     year: 2024
     title: "Musical perception skills predict speech imitation skills: Differences between speakers of tone and intonation languages"
+    topics: [individual]
     journal: Language and Cognition
     volume: 16
     issue: 3
@@ -124,6 +141,7 @@ journal_articles:
   - authors: Li, P.*, Baills, F., Alazard-Guiu, C., Baqué, L., & Prieto, P.
     year: 2023
     title: A pedagogical note on teaching L2 prosody and speech sounds using hand gestures
+    topics: [multimodality]
     journal: Journal of Second Language Pronunciation
     volume: 9
     issue: 3
@@ -133,6 +151,7 @@ journal_articles:
   - authors: Li, P.*, Baills, F., Baqué, L., & Prieto, P.
     year: 2023
     title: The effectiveness of the embodied prosodic training in L2 accentedness and vowel accuracy
+    topics: [multimodality]
     journal: Second Language Research
     volume: 39
     issue: 4
@@ -142,6 +161,7 @@ journal_articles:
   - authors: Ozakin, A.*, Xi, X., Li, P., & Prieto, P.
     year: 2023
     title: "Thanks or tanks: Training with tactile cues improves learners’ accuracy of English interdental consonants in an oral reading task"
+    topics: [multimodality]
     journal: Language Learning and Development
     volume: 19
     issue: 4
@@ -151,6 +171,7 @@ journal_articles:
   - authors: Li, P.*, Xi, X., Baills, F. & Prieto, P.
     year: 2021
     title: "Training non-native aspirated plosives with hand gestures: Learners’ gesture performance matters"
+    topics: [multimodality]
     journal: Language, Cognition and Neuroscience
     volume: 36
     issue: 10
@@ -160,6 +181,7 @@ journal_articles:
   - authors: Li, P.*, Baills, F. & Prieto, P.
     year: 2020
     title: Observing and producing durational hand gestures facilitates the pronunciation of novel vowel-length contrasts
+    topics: [multimodality]
     journal: Studies in Second Language Acquisition
     volume: 42
     issue: 5
@@ -173,6 +195,7 @@ journal_articles:
   - authors: Xi, X.*, Li, P., Baills, F. & Prieto, P.
     year: 2020
     title: Hand gestures facilitate the acquisition of novel phonemic contrasts when they appropriately mimic target phonetic features
+    topics: [multimodality]
     journal: Journal of Speech, Language, and Hearing Research
     volume: 63
     issue: 11
@@ -184,6 +207,7 @@ book_chapters:
   - authors: Xi, X.*, Li, P., Baills, F., & Prieto, P.
     year: 2026
     title: "Observing versus producing gestures for the learning of L2 sounds: What gesture performance tells us"
+    topics: [multimodality]
     editors: L. Morett & S. Inceoglu (Eds.).
     book: Gesture in Second Language Acquisition and Pedagogy
     details: De Gruyter Mouton
@@ -192,6 +216,7 @@ book_chapters:
   - authors: Li, P.*, Baills, F., Xi, X., & Prieto, P.
     year: 2024
     title: Gesture shape and gesture-speech alignment predict simultaneous L2 sound production accuracy
+    topics: [multimodality]
     editors: A. Brown & S. W. Eskildsen (Eds.).
     book: Multimodality across Epistemologies in Second Language Research
     details: "(pp. 173–186) New York: Routledge"
@@ -202,6 +227,7 @@ proceedings:
   - authors: Li, P.*, Ioannidou, I.#, Marazzina, I.#, Pericacho, P.#, Reardon, B.#, & Xing, L.#*
     year: 2024
     title: Exploring the role of personality traits in the imitation abilities of non-native speech in familiar and unfamiliar languages
+    topics: [individual]
     editors: Y. Chen, A. Chen, & A. Arvaniti (Eds.),
     book: Proceedings of the 12th International Conference on Speech Prosody
     details: (pp. 265-269)
@@ -211,6 +237,7 @@ proceedings:
   - authors: Li, P.*, & Xi, X.
     year: 2024
     title: The perception of Spanish lexical stress by proficient Mandarin learners of Spanish
+    topics: [development]
     editors: Y. Chen, A. Chen, & A. Arvaniti (Eds.),
     book: Proceedings of the 12th International Conference on Speech Prosody
     details: (pp. 354-358)
@@ -220,6 +247,7 @@ proceedings:
   - authors: Xi, X.*, Zhou, S., & Li, P.
     year: 2024
     title: Duration as a prosodic marker of contextual factors in Mandarin positive polar questions
+    topics: [prosody]
     editors: Y. Chen, A. Chen, & A. Arvaniti (Eds.),
     book: Proceedings of the 12th International Conference on Speech Prosody
     details: (pp. 687-691)
@@ -238,6 +266,7 @@ proceedings:
   - authors: Li, P.* & Xi, X.
     year: 2023
     title: "Nuclear contours of Spanish echo questions produced by proficient Chinese learners of Spanish: A dynamic analysis"
+    topics: [development, prosody]
     editors: R. Skarnitzl & J. Volín (Eds.),
     book: Proceedings of the 20th International Congress of Phonetic Sciences (ICPhS2023)
     details: (pp. 2491-2495). Guarant International
@@ -247,6 +276,7 @@ proceedings:
   - authors: Xi, X.* & Li, P.
     year: 2023
     title: Effects of stress and prominence on Spanish stops and lenition in L2 speech of proficient Mandarin learners of Spanish
+    topics: [development]
     editors: R. Skarnitzl & J. Volín (Eds.),
     book: Proceedings of the 20th International Congress of Phonetic Sciences (ICPhS2023)
     details: (pp. 2740-2744). Guarant International
@@ -256,6 +286,7 @@ proceedings:
   - authors: Xi, X.*, Li, P., & Prieto, P.
     year: 2023
     title: Does visuospatial working memory predict L2 audiovisual perceptual learning from phonetic training with hand gestures?
+    topics: [multimodality, individual]
     editors: R. Skarnitzl & J. Volín (Eds.),
     book: Proceedings of the 20th International Congress of Phonetic Sciences (ICPhS2023)
     details: (pp. 2670-2674). Guarant International
@@ -265,6 +296,7 @@ proceedings:
   - authors: Xi, X.*, Li, P., & Prieto, P.
     year: 2023
     title: Reducing acoustic overlap of L2 English vowels through gestures encoding lip aperture
+    topics: [multimodality]
     editors: A. Henderson & A. Kirkova-Naskova (Eds.),
     book: "Proceedings of the 7th International Conference on English Pronunciation: Issues and Practices"
     details: (pp. 261–270). Université Grenoble-Alpes
@@ -274,6 +306,7 @@ proceedings:
   - authors: Li, P.* & Xi, X.
     year: 2022
     title: Spanish lexical stress produced by proficient Mandarin learners of Spanish
+    topics: [development]
     editors: S. Ishihara & M. Tronnier (Eds.),
     book: Proceedings of the 4th International Symposium on Applied Phonetics (ISAPh2022)
     details: (pp. 40-45)
@@ -283,6 +316,7 @@ proceedings:
   - authors: Xi, X.* & Li, P.
     year: 2022
     title: Spanish stops and their allophones produced by proficient Mandarin learners of Spanish
+    topics: [development]
     editors: V. H. Do, C. M. Luong, S. Nakamura, H. H. Nguyen, & T. M. H. Nguyen (Eds.),
     book: 25th Conference of the Oriental COCOSDA International Committee for the Co-ordination and Standardisation of Speech Databases and Assessment Techniques (O-COCOSDA), 2022
     details: (pp. 152-157)
@@ -292,6 +326,7 @@ proceedings:
   - authors: Li, P.* & Ye, C.
     year: 2022
     title: Voice onset time of Japanese stops produced by Shanghainese-Mandarin learners with various Japanese proficiency levels
+    topics: [bilingualism]
     editors: E. Babatsouli (Ed.),
     book: Proceedings of the International Symposium on Monolingual and Bilingual Speech 2022
     details: (pp. 54-60)
@@ -301,6 +336,7 @@ proceedings:
   - authors: Li, P.*, Zhang, Y., Fu, X., Baills, F., & Prieto, P.
     year: 2022
     title: Melodic perceptive skills predict Catalan speakers’ imitation abilities of unfamiliar languages
+    topics: [individual]
     editors: S. Frota, M. Cruz, & M. Vigário (Eds.),
     book: Proceedings of the 11th International Conference on Speech Prosody
     details: (pp. 876–880)
@@ -310,6 +346,7 @@ proceedings:
   - authors: Li, P.*, Xi, X., Baills, F., & Prieto, P.
     year: 2020, accepted
     title: Appropriately performing hand gestures cueing phonetic features facilitates simultaneous speech imitation in an L2
+    topics: [multimodality]
     book: Proceedings of the 7th GeSpIn Conference
     pdf: /files/postprints/Li_gespin_2020.pdf
     pdf_label: Author copy
@@ -317,6 +354,7 @@ proceedings:
   - authors: Xi, X.*, Li, P., Baills, F., & Prieto, P.
     year: 2020, accepted
     title: "Training the pronunciation of L2 novel phonetic features: A comparison of observing versus producing hand gestures"
+    topics: [multimodality]
     book: Proceedings of the 7th GeSpIn Conference
     pdf: /files/postprints/Xi_gespin_2020.pdf
     pdf_label: Author copy
@@ -324,6 +362,7 @@ proceedings:
   - authors: Yuan, C.* & Li, P.
     year: 2019
     title: Interpreting Mandarin positive polar questions
+    topics: [prosody]
     journal: Linguistic Proceedings Series
     volume: 10
     issue: 1

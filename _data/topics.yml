@@ -1,0 +1,22 @@
+# PUBLICATION TOPICS (filter buttons on the Publications page, in this order)
+# Each publication lists its topics with the short key, e.g.  topics: [multimodality, individual]
+
+- key: multimodality
+  en: Multimodality and L2 speech acquisition
+  zh: 多模态与二语语音习得
+
+- key: development
+  en: L2 speech development
+  zh: 二语语音发展
+
+- key: individual
+  en: Individual differences in L2
+  zh: 二语个体差异
+
+- key: bilingualism
+  en: Bilingualism and crosslinguistic influence
+  zh: 双语与跨语言影响
+
+- key: prosody
+  en: Prosody and pragmatics
+  zh: 韵律与语用

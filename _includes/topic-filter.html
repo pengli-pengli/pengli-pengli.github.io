@@ -1,0 +1,25 @@
+<div class="topic-filter" role="group" aria-label="{% if page.lang == "zh" %}按主题筛选{% else %}Filter by topic{% endif %}">
+  <span class="label">{% if page.lang == "zh" %}按主题筛选：{% else %}Filter by topic:{% endif %}</span>
+  <button type="button" data-topic="" aria-pressed="true">{% if page.lang == "zh" %}全部{% else %}All{% endif %}</button>
+  {%- for t in site.data.topics %}
+  <button type="button" data-topic="{{ t.key }}" aria-pressed="false">{% if page.lang == "zh" %}{{ t.zh }}{% else %}{{ t.en }}{% endif %}</button>
+  {%- endfor %}
+</div>
+<script>
+(function () {
+  var box = document.currentScript.previousElementSibling;
+  var buttons = box.querySelectorAll("button");
+  function show(topic) {
+    buttons.forEach(function (b) { b.setAttribute("aria-pressed", b.dataset.topic === topic ? "true" : "false"); });
+    document.querySelectorAll(".pub-group").forEach(function (g) {
+      var n = 0;
+      g.querySelectorAll("li[data-topics]").forEach(function (li) {
+        var on = !topic || (" " + li.dataset.topics + " ").indexOf(" " + topic + " ") > -1;
+        li.hidden = !on; if (on) n++;
+      });
+      g.hidden = n === 0;
+    });
+  }
+  buttons.forEach(function (b) { b.addEventListener("click", function () { show(b.dataset.topic); }); });
+})();
+</script>
